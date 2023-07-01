@@ -5,6 +5,7 @@ import './App.css';
 import AboutMe from "./about-me";
 import WorkExperience from './work-experience';
 import Education from "./education"
+import Projects from "./project";
 
 import "./images/placeholder.png";
 
@@ -17,6 +18,7 @@ function App() {
         <AboutMe />
         <WorkExperience />
         <Education />
+        <Projects />
       </header>
     </div>
   );

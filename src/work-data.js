@@ -6,7 +6,7 @@ import VIPS from "./images/vips.png";
 
 const jobs = [
     {
-        id: 1, 
+        id: "wk1", 
         image: Barrett,
         position: "Data Worker",
         company: "Barrett, The Honors College", 
@@ -22,7 +22,7 @@ const jobs = [
         ]
     },
     {
-        id: 2,
+        id: "wk2",
         image: FSE,
         position: "Communications Director",
         company: "Fulton Ambassador, Ira A. Fulton Schools of Engineering",
@@ -35,7 +35,7 @@ const jobs = [
         ]
     },
     {
-        id: 3, 
+        id: "wk3", 
         image: VIPS,
         position: "Computer Science Lab Assistant", 
         company: "Venkat International Public School", 
