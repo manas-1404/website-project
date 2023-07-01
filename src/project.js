@@ -15,7 +15,7 @@ function AddProject(){
 
     const elements = ProjectData.map(project =>
         <div className="project-container">
-            <Picture img={PlaceHolder} alt="Organization Logo" />
+            <Picture img={project.image} alt="Organization Logo" />
 
             <Content detail={project} />  
         </div>
