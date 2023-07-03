@@ -35,7 +35,7 @@ function AddEducation(){
 export default function Education(){
     return(
         <div>
-            <h2><strong>Education</strong></h2>
+            <h2 id="Education"><strong>Education</strong></h2>
             <AddEducation />
         </div>
     )

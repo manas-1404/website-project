@@ -12,9 +12,9 @@ import Picture from "./pictures"
 
 function ContactMe(){
     return (
-        <div id="contact-me">
+        <div className="contact-me">
             <div>
-                <h2>Contact Me</h2>
+                <h2 id="Contact-Me">Contact Me</h2>
                 <h3>Want to know me better? Let's have a conversation!</h3>
                 
                 {/* make the below div as a flexbox */}

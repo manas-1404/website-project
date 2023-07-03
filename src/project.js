@@ -26,8 +26,8 @@ function AddProject(){
 
 function Projects(){
     return(
-        <div id="projects">
-            <h2><strong>Projects</strong></h2>
+        <div>
+            <h2 id="Projects"><strong>Projects</strong></h2>
             <AddProject />
         </div>
     );

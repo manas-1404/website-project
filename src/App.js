@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 // importing other components from different files
+import NavBar from './nav-bar';
+import FirstPage from "./first-page";
 import AboutMe from "./about-me";
 import WorkExperience from './work-experience';
 import Education from "./education"
@@ -15,7 +17,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Manas Srinivas Gowda</p>       
+
+        <NavBar />
+
+        
+        <FirstPage />
         <AboutMe />
         <WorkExperience />
         <Education />

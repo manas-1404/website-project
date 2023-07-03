@@ -28,7 +28,7 @@ function AddExperience(){
 function WorkExperience(){
     return (
         <div id="work-experience">
-            <h2><strong>Work Experience</strong></h2>
+            <h2 id="Work-Experience"><strong>Work Experience</strong></h2>
             <AddExperience />
         </div>
     )
