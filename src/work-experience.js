@@ -30,7 +30,6 @@ function WorkExperience() {
         <div id="Work-Experience-stage">
             <div id="Work-Experience">
                 <div id="WEX-Title"><h2><strong>Work Experience</strong></h2></div>
-                
                 <AddExperience />
             </div>
         </div>

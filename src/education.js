@@ -18,25 +18,26 @@ const schools = [
     }
 ]
 
-function AddEducation(){
+function AddEducation() {
 
-    const items=schools.map(school =>
-        <div>
+    const items = schools.map(school =>
+        <div className="education-container">
             <Picture img={school.image} alt="Organization Logo" />
-            
             <Content detail={school} />
         </div>
-        );
+    );
 
-    return(<div>{items}</div>);
+    return (<div>{items}</div>);
 }
 
 
-export default function Education(){
-    return(
-        <div>
-            <h2 id="Education"><strong>Education</strong></h2>
-            <AddEducation />
+export default function Education() {
+    return (
+        <div id="Education-stage">
+            <div id="Education">
+                <div id="EDU-Title"><h2><strong>Education</strong></h2></div>
+                <AddEducation />
+            </div>
         </div>
     )
 }

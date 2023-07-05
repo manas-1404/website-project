@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './styling/App.css';
 import './styling/about-me.css';
 import "./styling/work-experience.css";
+import './styling/education.css';
 
 // importing other components from different files
 import NavBar from './nav-bar';
