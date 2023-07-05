@@ -10,7 +10,7 @@ import JobData from "./work-data";
 import Logo from "./images/placeholder.png";
 
 
-function AddExperience(){
+function AddExperience() {
 
     const elements = JobData.map(job =>
         <div className="job-container">
@@ -19,17 +19,20 @@ function AddExperience(){
             {/* add Job details here with Content tag */}
             <Content detail={job} />
 
-        </div>    
+        </div>
     );
 
     return (<div>{elements}</div>);
 }
 
-function WorkExperience(){
+function WorkExperience() {
     return (
-        <div id="work-experience">
-            <h2 id="Work-Experience"><strong>Work Experience</strong></h2>
-            <AddExperience />
+        <div id="Work-Experience-stage">
+            <div id="Work-Experience">
+                <div id="WEX-Title"><h2><strong>Work Experience</strong></h2></div>
+                
+                <AddExperience />
+            </div>
         </div>
     )
 }

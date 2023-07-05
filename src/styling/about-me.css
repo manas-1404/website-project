@@ -1,0 +1,36 @@
+html{
+    font-size: 16px;
+}
+
+#About-Me-stage{
+    display: flex;
+    justify-content: center;
+}
+
+#About-Me{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+    width: 68%;
+    background-color: #FAEFDC;
+}
+
+/* selecting all the elements in the div */
+#About-Me *{
+    /* aligning the text in the center */
+    text-align: center; 
+}
+
+/* selecting the h2 tag in the div */
+#About-Me h2{
+    color: #113A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 280%;
+}
+
+/* selecting the p tag in the div */
+#About-Me p{
+    color: #003C6E;
+    font-family: 'Comfortaa', cursive;
+    font-size: 140%;
+}

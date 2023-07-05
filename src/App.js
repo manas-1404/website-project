@@ -1,5 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
+import './styling/App.css';
+import './styling/about-me.css';
+import "./styling/work-experience.css";
 
 // importing other components from different files
 import NavBar from './nav-bar';

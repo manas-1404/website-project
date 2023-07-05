@@ -15,7 +15,7 @@ export default function Content(props){
     //condition for work experience, if id = wk$$
     if(props.detail.id.includes("wk")){
         return (
-            <div>
+            <div className="content">
                 <h3><strong>{props.detail.position}</strong></h3>
                 <h3>{props.detail.company}</h3>
                 <h5><em>{props.detail.timeline}</em></h5>
@@ -28,7 +28,7 @@ export default function Content(props){
     //condition for education, if id= edu$$
     if(props.detail.id.includes("edu")){
         return(
-            <div>
+            <div className="content">
                 <h3><strong>{props.detail.name}</strong></h3>
                 <h4>{props.detail.degree}</h4>
                 <h4>GPA: {props.detail.GPA}.0</h4>
@@ -40,7 +40,7 @@ export default function Content(props){
 
     if(props.detail.id.includes("prj")){
         return(
-            <div>
+            <div className="content">
                 <h3><strong>{props.detail.name}</strong></h3>
                 <h5><em>{props.detail.time}</em></h5>
                 <p>{props.detail.desc}</p>

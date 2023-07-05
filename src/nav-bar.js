@@ -13,7 +13,7 @@ function NavBar() {
                 </div>
             </div>
 
-            <a href="#Work-Experience">Work Experience</a>
+            <a href="#Work-Experience-stage">Work Experience</a>
             <a href="#Education">Education</a>
             <a href="#Projects">Project</a>
             <a>Resume</a>

@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+  background-color: rgb(229,231,235);
 }
 
 body{
@@ -76,17 +77,18 @@ body{
   /* border: 5px solid blue; */
 }
 
-#First-Page{
+/* #First-Page{
   padding-top: 6%;
-}
+} */
 
 /* First Page Structure and Styling */
 .First-Page-stage {
-  /* margin-bottom: 40px; */
+  margin-bottom: 6.8%;
+  padding-top: 6.5%;
   /* width: 100vw; */
   background-color: rgb(229,231,235);
   /* background-color: white; */
-  height: 100vh;
+  /* height: 100vh; */
 
   
 }
@@ -100,6 +102,7 @@ body{
   /* background-color: #C2E6DF; */
 }
 
+/* shadow feature - the raised stack feeling */
 #First-Page img, #First-Page div{
   /* box-shadow: 4px 2px 3px white; */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
@@ -142,42 +145,3 @@ body{
   font-size: 4.3em;
 }
 
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
