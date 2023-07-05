@@ -1,0 +1,85 @@
+#Work-Experience-stage{
+    display: flex;
+    justify-content: center;
+
+    margin: 1%;
+    padding: 3.3%;
+}
+
+
+#WEX-Title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#Work-Experience h2{
+    text-align: center;
+
+    padding: 1%;
+    
+    background-color: #FAEFDC;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+    color: #113A6A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 280%;
+
+    
+    margin-bottom: 2%;
+}
+
+.job-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.all-images{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+    width: 10%;
+    height: 10%;
+
+    margin: 1%;
+}
+
+.content{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+    background-color: #FAEFDC;
+
+    width: 67%;
+
+    margin: 1%;
+
+    padding: 1%;
+}
+
+.content *{
+    color: #003C6E;
+    font-family: 'Comfortaa', cursive;
+}
+
+.content h3{
+    margin-top: 0%;
+    font-size: 160%;
+}
+
+.content h5{
+    font-size: 105%;
+}
+
+.content li {
+    padding-bottom: 1%;
+    font-size: 104%;
+}
+
+
+
+
+
