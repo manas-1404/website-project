@@ -1,4 +1,4 @@
-#Education-stage{
+#Project-stage{
     display: flex;
     justify-content: center;
 
@@ -10,22 +10,22 @@
     padding-bottom: 0%;
 }
 
-#Education{
+#Project{
 
-    width: 60%;
+    width: 65%;
     margin: 1%;
 
     margin-bottom: 0%;
 }
 
-.education-container{
+.project-container{
     display: flex;
     justify-content: center;
     
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-#Education h2{
+#Project h2{
     text-align: center;
 
     padding: 1%;
@@ -42,13 +42,18 @@
     margin-bottom: 2%;
 }
 
-#EDU-Title{
+#PRJT-Title{
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.education-container .all-images{
-    width: 16%;
-    height: 16%;
+.project-container .all-images{
+    width: 17%;
+    height: 17%;
 }
+
+.project-container .content{
+    flex-grow: 1;
+}
+
