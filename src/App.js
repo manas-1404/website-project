@@ -7,6 +7,8 @@ import './styling/education.css';
 import './styling/project.css';
 import './styling/contact-me.css';
 
+import './styling/dark-mode.css';
+
 // importing other components from different files
 import NavBar from './nav-bar';
 import FirstPage from "./first-page";
