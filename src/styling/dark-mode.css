@@ -1,23 +1,25 @@
-body.light-mode {
-    background-color: rgb(229,231,235);
-  }
-  
 body.dark-mode {
-    /* background-color: black; */
     background-color: rgb(35, 39, 47, 0.9);
-    /* background-color: rgba(52,58,70,.8); */
-    color: white;
 }
 
 .First-Page.dark-mode{
-    /* background-color: black; */
     background-color: rgb(35, 39, 47, 0.9);
-    /* background-color: rgba(52,58,70,.8); */
-    color: white;
 }
 
 .Nav-Bar.dark-mode{
     background-color: rgb(35, 39, 47, 0.9);
 }
 
+.Nav-Bar a.dark-mode{
+    color: white;
+}
+
 /* rgb(22, 24, 29, 0.9) -> use this color for the stack materials */
+
+#IamManas.dark-mode{
+    background-color: rgb(22, 24, 29, 0.9);
+}
+
+#IamManas h1.dark-mode{
+    color: white;
+}

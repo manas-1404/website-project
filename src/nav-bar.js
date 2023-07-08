@@ -18,9 +18,18 @@ function NavBar() {
         const body = document.querySelector("body");
         const stage = document.querySelector("#First-Page");
         const navBar = document.querySelector(".Nav-Bar");
+        const navBarElements = document.querySelector(".Nav-Bar a");
+
+        const IamManas = document.querySelector("#IamManas");
+        const introduction = document.querySelector("#IamManas h1");
+
         body.classList.toggle("dark-mode", isDarkMode);
         stage.classList.toggle("dark-mode", isDarkMode);
         navBar.classList.toggle("dark-mode", isDarkMode);
+        navBarElements.classList.toggle("dark-mode", isDarkMode);
+
+        IamManas.classList.toggle("dark-mode",isDarkMode);
+        introduction.classList.toggle("dark-mode", isDarkMode);
       }, [isDarkMode]);
 
     return (
@@ -38,9 +47,12 @@ function NavBar() {
                 <a href="#Project-stage">Project</a>
                 <a>Resume</a>
                 <a href="#Contact-Me">Contact Me</a>
-                <button onClick={toggleDarkMode}><span class="material-icons">light_mode</span></button>
+                <button onClick={toggleDarkMode} id="switch-button">
+                    {isDarkMode === false && <span class="material-icons">bedtime</span>}
+                    {isDarkMode === true && <span class="material-icons">light_mode</span>}
+                </button>
             </nav>
-        </div>
+        </div> 
 
     );
 }

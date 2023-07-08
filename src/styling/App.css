@@ -4,10 +4,7 @@ html{
 }
 
 body{
-  margin-top: 0px;
-  margin-left:0;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 /* Navigation Bar Structure and Styling */
@@ -54,32 +51,36 @@ body{
 /* light mode icon */
 .material-icons {
   color: rgb(64, 71, 86);
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 28px;
 
   /* making the elements have a semi-circular border */
-  border-radius: 50px;
+  border-radius: 50%;
 
   /* making the elements have space in the containers */
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 8px;
 
   cursor: pointer;
+
 
   /* border: 5px solid blue; */
 }
 
-.Nav-Bar button{
-  text-decoration: none;
-
-  background-color: rgba(255, 255, 255, 0.9);
+#switch-button{
+  /* text-decoration: none; */
 
   border-radius: 50%;
 
+
   padding: 0%;
-  border-color: rgba(255, 255, 255, 0.9);
+  /* border-color: rgba(255, 255, 255, 0.9); */
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+
+  /* border: 5px solid red; */
 }
 
 .Nav-Bar a:hover{
