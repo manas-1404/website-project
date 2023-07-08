@@ -7,14 +7,27 @@ import Content from "./content"
 //importing images 
 import Barrett from "./images/barrett.png";
 import FSE from "./images/fse.png";
-import ASU from "./images/asu.png"
+import ASU from "./images/asu.png";
 
 const schools = [
     {
-        id: "edu1", image: FSE, name: "Arizona State University", degree: "B.S(Hons.) in Computer Science", GPA: 4.0, graduation: "Expected August 2026", city: "Tempe, Arizona, United States"
+        id: "edu1", 
+        image: FSE, 
+        link: "https://www.asu.edu/",
+        name: "Arizona State University", 
+        degree: "B.S(Hons.) in Computer Science", 
+        GPA: 4.0, graduation: "Expected August 2026", 
+        city: "Tempe, Arizona, United States"
     },
     {
-        id: "edu2", image: Barrett, name: "Barrett, The Honors College", degree: "Honors in Computer Science", GPA: 4.0, graduation: "Expected August 2026", city: "Tempe, Arizona, United States"
+        id: "edu2", 
+        image: Barrett, 
+        link: "https://barretthonors.asu.edu/",
+        name: "Barrett, The Honors College", 
+        degree: "Honors in Computer Science", 
+        GPA: 4.0, 
+        graduation: "Expected August 2026", 
+        city: "Tempe, Arizona, United States"
     }
 ]
 

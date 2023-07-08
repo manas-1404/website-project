@@ -81,7 +81,7 @@ body.dark-mode {
 }
 
 /* contact-me dark-mode setting */
-#Contact-Me-stage{
+#Contact-Me-stage.dark-mode{
     background-color: rgba(22, 24, 29, 0.9);
 }
 

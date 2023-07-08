@@ -19,9 +19,15 @@ function ContactMe(){
                 
                 {/* make the below div as a flexbox */}
                 <div id="image-container">
+                    <div className="image-link">
                     <Picture img={GitHub} alt="GitHub" />
-                    <Picture img={LinkedIn} alt="LinkedIn" />
-                    <Picture img={Resume} alt="Resume" />
+                    <a href="https://github.com/manas-1404" target="_blank"></a>
+                    </div>
+                    
+                    <a href="https://www.linkedin.com/in/manas-gowda/"><Picture img={LinkedIn} alt="LinkedIn" /></a>
+                    <a href="https://docs.google.com/document/d/1MCf4O7vIUl7A-n-KSPXseRjhuyFqGC0g/edit?usp=sharing&ouid=106415042144774581140&rtpof=true&sd=true" target="_blank">
+                        <Picture img={Resume} alt="Resume" />
+                    </a>
                 </div>
                 
             </div>

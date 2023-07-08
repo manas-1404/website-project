@@ -8,6 +8,7 @@ const jobs = [
     {
         id: "wk1", 
         image: Barrett,
+        link: "https://barretthonors.asu.edu/",
         position: "Data Worker",
         company: "Barrett, The Honors College", 
         timeline: "March 2023 - Present",
@@ -24,6 +25,7 @@ const jobs = [
     {
         id: "wk2",
         image: FSE,
+        link: "https://engineering.asu.edu/",
         position: "Communications Director",
         company: "Fulton Ambassador, Ira A. Fulton Schools of Engineering",
         timeline: "April 2023 - Present",
@@ -37,6 +39,7 @@ const jobs = [
     {
         id: "wk3", 
         image: VIPS,
+        link: "http://vips.ac.in/",
         position: "Computer Science Lab Assistant", 
         company: "Venkat International Public School", 
         timeline: "July 2021 - March 2022", 

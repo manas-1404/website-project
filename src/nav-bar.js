@@ -83,6 +83,9 @@ function NavBar() {
 
       }, [isDarkMode]);
 
+
+      const ResumeLink = "https://docs.google.com/document/d/1MCf4O7vIUl7A-n-KSPXseRjhuyFqGC0g/edit?usp=sharing&ouid=106415042144774581140&rtpof=true&sd=true";
+
     return (
         <div className="container">
             <nav className="Nav-Bar">
@@ -96,7 +99,7 @@ function NavBar() {
                 <a href="#Work-Experience-stage">Work Experience</a>
                 <a href="#Education-stage">Education</a>
                 <a href="#Project-stage">Project</a>
-                <a>Resume</a>
+                <a href={ResumeLink} target="_blank">Resume</a>
                 <a href="#Contact-Me">Contact Me</a>
                 <button onClick={toggleDarkMode} id="switch-button">
                     {isDarkMode === false && <span class="material-icons">bedtime</span>}
