@@ -18,18 +18,69 @@ function NavBar() {
         const body = document.querySelector("body");
         const stage = document.querySelector("#First-Page");
         const navBar = document.querySelector(".Nav-Bar");
-        const navBarElements = document.querySelector(".Nav-Bar a");
+        const SwitchButton = document.querySelector("#switch-button");
+        const SwitchButtonImage = document.querySelector(".material-icons");
 
         const IamManas = document.querySelector("#IamManas");
-        const introduction = document.querySelector("#IamManas h1");
 
+        
+        const aboutMe = document.querySelector("#About-Me");    //about-me.js page
+
+        
+        const WEXTitle = document.querySelector("#WEX-Title h2");   //Work Experience Title
+
+        const EDUTitle = document.querySelector("#EDU-Title h2");   //Education Title
+
+        const PRJTTitle = document.querySelector("#PRJT-Title h2");   //Project Title
+
+        const ContactMeStage = document.querySelector("#Contact-Me-stage");
+
+
+        // multiple elements
+        const navBarElements = document.querySelectorAll(".Nav-Bar a");
+        const introduction = document.querySelectorAll("#IamManas h1");
+
+        const aboutMeElements = document.querySelectorAll("#About-Me *");
+
+        const ContentBox = document.querySelectorAll(".content");
+        const ContentBoxElements = document.querySelectorAll(".content *");
+
+        const ContactMeElements = document.querySelectorAll("#Contact-Me *");
+
+
+        //rendering single elements
         body.classList.toggle("dark-mode", isDarkMode);
         stage.classList.toggle("dark-mode", isDarkMode);
         navBar.classList.toggle("dark-mode", isDarkMode);
-        navBarElements.classList.toggle("dark-mode", isDarkMode);
+        SwitchButton.classList.toggle("dark-mode", isDarkMode);
+        SwitchButtonImage.classList.toggle("dark-mode", isDarkMode);
+
 
         IamManas.classList.toggle("dark-mode",isDarkMode);
-        introduction.classList.toggle("dark-mode", isDarkMode);
+        
+        aboutMe.classList.toggle("dark-mode", isDarkMode);
+
+        WEXTitle.classList.toggle("dark-mode", isDarkMode);
+
+        EDUTitle.classList.toggle("dark-mode", isDarkMode);
+
+        PRJTTitle.classList.toggle("dark-mode", isDarkMode);
+
+        ContactMeStage.classList.toggle("dark-mode", isDarkMode);
+
+
+        //rendering multiple elements
+        navBarElements.forEach((node) => node.classList.toggle("dark-mode", isDarkMode));
+        introduction.forEach((node) => node.classList.toggle("dark-mode", isDarkMode));
+
+        aboutMeElements.forEach((node) => node.classList.toggle("dark-mode", isDarkMode));
+
+        ContentBox.forEach((node) => node.classList.toggle("dark-mode", isDarkMode));
+
+        ContentBoxElements.forEach((node) => node.classList.toggle("dark-mode", isDarkMode));
+
+        ContactMeElements.forEach((node) => node.classList.toggle("dark-mode", isDarkMode));
+
       }, [isDarkMode]);
 
     return (
