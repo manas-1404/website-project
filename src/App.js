@@ -27,8 +27,6 @@ function App() {
       <header className="App-header">
 
         <NavBar />
-
-        
         <FirstPage />
         <AboutMe />
         <WorkExperience />
