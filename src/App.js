@@ -35,6 +35,16 @@ function App() {
         <Education />
         <Projects />
         <ContactMe />
+
+        <NavBar />
+
+        
+        <FirstPage />
+        <AboutMe />
+        <WorkExperience />
+        <Education />
+        <Projects />
+        <ContactMe />
       </header>
     </div>
   );
