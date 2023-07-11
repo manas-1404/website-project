@@ -15,7 +15,7 @@ function NavBar() {
     };
 
     useEffect(() => {
-        const body = document.querySelector("body");
+        const html = document.querySelector("html");
         const stage = document.querySelector("#First-Page");
         const navBar = document.querySelector(".Nav-Bar");
         const SwitchButton = document.querySelector("#switch-button");
@@ -49,7 +49,7 @@ function NavBar() {
 
 
         //rendering single elements
-        body.classList.toggle("dark-mode", isDarkMode);
+        html.classList.toggle("dark-mode", isDarkMode);
         stage.classList.toggle("dark-mode", isDarkMode);
         navBar.classList.toggle("dark-mode", isDarkMode);
         SwitchButton.classList.toggle("dark-mode", isDarkMode);
@@ -84,7 +84,7 @@ function NavBar() {
       }, [isDarkMode]);
 
 
-      const ResumeLink = "https://docs.google.com/document/d/1MCf4O7vIUl7A-n-KSPXseRjhuyFqGC0g/edit?usp=sharing&ouid=106415042144774581140&rtpof=true&sd=true";
+      const ResumeLink = "https://drive.google.com/file/d/1lBZEPW5pCB75ekDeMvzazDI5wLTtUUiJ/view?usp=sharing";
 
     return (
         <div className="container">
@@ -92,7 +92,7 @@ function NavBar() {
                 <div className="Website-Logo">
                     <img src={Logo} alt="Manas Logo" width="10%" id="Logo" />
                     <div>
-                        <p id="MyName"><a href="#First-Page">Manas Gowda</a></p>
+                        <p><a href="#First-Page-stage"  id="MyName">Manas Gowda</a></p>
                     </div>
                 </div>
 

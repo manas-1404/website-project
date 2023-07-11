@@ -2,27 +2,37 @@
     display: flex;
     justify-content: center;
 
-    margin: 1%;
-    padding: 3.3%;
+    margin-top: 1%;
 
-    margin-bottom: 0%;
-    margin-top: 0%;
-    padding-bottom: 0%;
+    padding-top: 3.3%;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
+
+    /* border: 2px solid black; */
 }
 
 #Project{
+    width: 96%;
 
-    width: 65%;
-    margin: 1%;
+    min-width: 908px;
+    margin: 0 auto;
 
-    margin-bottom: 0%;
+    /* border: 2px solid blue; */
+}
+
+#PRJT-Title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .project-container{
     display: flex;
     justify-content: center;
     
-    margin-top: 5px;
+    margin-top: 1em;
+
+    /* border: 2px solid green; */
 }
 
 #Project h2{
@@ -42,18 +52,7 @@
     margin-bottom: 2%;
 }
 
-#PRJT-Title{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
 .project-container .all-images{
-    width: 17%;
-    height: 17%;
+    width: 8.5em;
+    height: 9.5em;
 }
-
-.project-container .content{
-    flex-grow: 1;
-}
-

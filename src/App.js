@@ -12,7 +12,7 @@ import './styling/dark-mode.css';
 // importing other components from different files
 import NavBar from './nav-bar';
 import FirstPage from "./first-page";
-import AboutMe from "./about-me";
+import AboutMe from "./about-me"; 
 import WorkExperience from './work-experience';
 import Education from "./education"
 import Projects from "./project";
