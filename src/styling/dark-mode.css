@@ -1,0 +1,90 @@
+html.dark-mode {
+    background-color: rgba(35, 39, 47, 0.9);
+}
+
+/* first-page dark-mode setting*/
+.First-Page.dark-mode{
+    background-color: rgba(35, 39, 47, 0.9);
+}
+
+#IamManas.dark-mode{
+    background-color: rgba(22, 24, 29, 0.9);
+}
+
+#IamManas h1.dark-mode{
+    color: #e5e7eb;
+}
+
+
+/* nav bar dark-mode setting */
+.Nav-Bar.dark-mode{
+    background-color: rgba(35, 39, 47, 0.9);
+}
+
+.Nav-Bar a.dark-mode{
+    color: #e5e7eb;
+}
+
+.Nav-Bar a:hover.dark-mode{
+    background-color: rgba(246,247,249,.05);
+}
+
+#switch-button.dark-mode{
+    background-color: rgba(35, 39, 47, 0.9);
+    color: #e5e7eb;
+}
+
+.material-icons.dark-mode{
+    color: #e5e7eb;
+}
+
+.material-icons:hover.dark-mode{
+    background-color: rgba(246,247,249,.05);
+}
+
+/* rgba(22, 24, 29, 0.9) -> use this color for the stack materials */
+
+/* about me dark-mode setting */
+#About-Me.dark-mode{
+    background-color: rgba(22, 24, 29, 0.9);
+}
+
+#About-Me *.dark-mode{
+    color: #e5e7eb;
+}
+
+/* work experience dark-mode setting */
+#WEX-Title h2.dark-mode{
+    background-color: rgba(22, 24, 29, 0.9);
+    color: #e5e7eb;
+}
+
+/* content boxes dark-mode setting */
+.content.dark-mode{
+    background-color: rgba(22, 24, 29, 0.9);
+}
+
+.content *.dark-mode{
+    color: #e5e7eb;
+}
+
+/* education dark-mode setting */
+#EDU-Title h2.dark-mode{
+    background-color: rgba(22, 24, 29, 0.9);
+    color: #e5e7eb;
+}
+
+/* project dark-mode setting */
+#PRJT-Title h2.dark-mode{
+    background-color: rgba(22, 24, 29, 0.9);
+    color: #e5e7eb;
+}
+
+/* contact-me dark-mode setting */
+#Contact-Me-stage.dark-mode{
+    background-color: rgba(22, 24, 29, 0.9);
+}
+
+#Contact-Me *.dark-mode{
+    color: #e5e7eb;
+}
