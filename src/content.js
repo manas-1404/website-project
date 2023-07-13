@@ -3,7 +3,7 @@ import React from "react"
 function Description(props2){
 
     const items = props2.roles.map(jobPoint =>
-            <li>{jobPoint}</li>
+            <li key={jobPoint.index}>{jobPoint.point}</li>
         );
 
     return (<ul>{items}</ul>);

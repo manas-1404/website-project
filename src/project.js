@@ -14,7 +14,7 @@ import ProjectData from "./project-data";
 function AddProject(){
 
     const elements = ProjectData.map(project =>
-        <div className="project-container">
+        <div className="project-container" key={project.id}>
             <Picture img={project.image} alt="Organization Logo" />
 
             <Content detail={project} />  

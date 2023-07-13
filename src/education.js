@@ -34,7 +34,7 @@ const schools = [
 function AddEducation() {
 
     const items = schools.map(school =>
-        <div className="education-container">
+        <div className="education-container" key={school.id}>
             <Picture img={school.image} alt="Organization Logo" />
             <Content detail={school} />
         </div>

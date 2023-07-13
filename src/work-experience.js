@@ -13,7 +13,7 @@ import JobData from "./work-data";
 function AddExperience() {
 
     const elements = JobData.map(job =>
-        <div className="job-container">
+        <div className="job-container" key={job.id}>
             <Picture img={job.image} alt="Organization Logo" />
 
             {/* add Job details here with Content tag */}
@@ -21,7 +21,6 @@ function AddExperience() {
 
         </div>
     );
-
     return (<div>{elements}</div>);
 }
 
