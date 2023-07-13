@@ -1,0 +1,55 @@
+/* First Page Structure and Styling */
+#First-Page-stage {
+    margin-bottom: 6.8em;
+    padding-top: 6.5em;
+
+  /* border: 2px solid black; */
+    
+  }
+  
+  #First-Page{
+    display: flex;
+    justify-content:center;
+    align-items: stretch;  /*aligning along the cross axis*/
+
+    /* border: 2px solid blue; */
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  /* shadow feature - the raised stack feeling */
+  #First-Page img, #First-Page div{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  
+  }
+  
+  #MyImage{
+    flex: 0 0 auto; /* Set flex basis to auto to maintain the original image size */
+    height: 100%; /*Make the image fill the height of its parent container */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+
+    width: 33em;
+  }
+  
+  #IamManas{
+    width: 28em;
+    min-width: 378px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #FAEFDC;
+  }
+  
+  #IamManas h1{
+    margin: 0em;
+    font-family: 'Rancho', cursive;
+    font-style: italic;
+    font-weight:bold;
+    /* color: #182153; */
+    color: #113A6A;
+    font-size: 6.5rem;
+  }

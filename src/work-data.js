@@ -1,5 +1,6 @@
 import React from "react";
 
+import CounterSpeech from "./images/counterSpeech.png";
 import Barrett from "./images/barrett.png";
 import FSE from "./images/fse.png";
 import VIPS from "./images/vips.png";
@@ -7,8 +8,22 @@ import VIPS from "./images/vips.png";
 const jobs = [
     {
         id: "wk1", 
+        image: CounterSpeech,
+        link: "https://globalsecurity.asu.edu/expertise/narrative-disinformation-and-strategic-influence/",
+        position: "Undergraduate Researcher",
+        company: "ASU Center on Narratives, Disinformation and Strategic Influence", 
+        timeline: "July 2023 - Present",
+        city: "Tempe, Arizona, United States", 
+        role: [
+            "Developing a CounterSpeech Bot to help fight hate speech online.",
+            "Using Python and concepts of Machine Learning to build the bot"
+        ]
+    },
+    {
+        id: "wk2", 
         image: Barrett,
-        position: "Data Worker",
+        link: "https://barretthonors.asu.edu/",
+        position: "Recruiting Assistant",
         company: "Barrett, The Honors College", 
         timeline: "March 2023 - Present",
         city: "Tempe, Arizona, United States", 
@@ -22,8 +37,9 @@ const jobs = [
         ]
     },
     {
-        id: "wk2",
+        id: "wk3",
         image: FSE,
+        link: "https://engineering.asu.edu/",
         position: "Communications Director",
         company: "Fulton Ambassador, Ira A. Fulton Schools of Engineering",
         timeline: "April 2023 - Present",
@@ -35,8 +51,9 @@ const jobs = [
         ]
     },
     {
-        id: "wk3", 
+        id: "wk4", 
         image: VIPS,
+        link: "http://vips.ac.in/",
         position: "Computer Science Lab Assistant", 
         company: "Venkat International Public School", 
         timeline: "July 2021 - March 2022", 
@@ -49,6 +66,4 @@ const jobs = [
         ]
     },
 ]
-
-
 export default jobs;

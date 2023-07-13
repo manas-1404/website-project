@@ -26,9 +26,11 @@ function AddProject(){
 
 function Projects(){
     return(
-        <div id="projects">
-            <h2><strong>Projects</strong></h2>
-            <AddProject />
+        <div id="Project-stage">
+            <div id="Project">
+                <div id="PRJT-Title"><h2><strong>Projects</strong></h2></div>
+                <AddProject />
+            </div>
         </div>
     );
 }
