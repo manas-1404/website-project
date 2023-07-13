@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 import CounterSpeech from "./images/counterSpeech.png";
 import Barrett from "./images/barrett.png";

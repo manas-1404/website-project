@@ -7,7 +7,7 @@ import Content from "./content"
 import JobData from "./work-data";
 
 //importing photos from files
-import Logo from "./images/placeholder.png";
+// import Logo from "./images/placeholder.png";
 
 
 function AddExperience() {

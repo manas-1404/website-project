@@ -1,7 +1,7 @@
 import React from "react";
 
 //importing pictures from images
-import PlaceHolder from "./images/placeholder.png";
+// import PlaceHolder from "./images/placeholder.png";
 
 //importing custom components
 import Picture from "./pictures";

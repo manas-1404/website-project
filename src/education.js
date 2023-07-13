@@ -7,7 +7,7 @@ import Content from "./content"
 //importing images 
 import Barrett from "./images/barrett.png";
 import FSE from "./images/fse.png";
-import ASU from "./images/asu.png";
+// import ASU from "./images/asu.png";
 
 const schools = [
     {

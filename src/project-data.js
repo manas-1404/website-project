@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 //importing pictures from images
 import Logo from "./images/favicon.jpg"

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './styling/App.css';
 import './styling/first-page.css'
 import './styling/about-me.css';
