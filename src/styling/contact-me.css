@@ -44,3 +44,28 @@
     padding-bottom: 1%;
     /* border: 5px solid blue; */
 }
+
+@media (max-width: 600px) and (min-width: 330px){
+
+    #Contact-Me-stage{
+        margin: 0.5em;
+    }
+    #image-container{
+        /* flex-direction: column; */
+        justify-content: center;
+    
+        padding-bottom: 1%;
+        /* border: 5px solid blue; */
+    }
+
+    #image-container .all-images{
+        width: 9em;
+        height: 9em;
+
+        margin: 0.5em;
+    }
+
+    #Contact-Me h3{
+        font-size: 1.2em;
+    }
+}

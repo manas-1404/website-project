@@ -21,7 +21,7 @@ function AddExperience() {
 
         </div>
     );
-    return (<div>{elements}</div>);
+    return (<div id="WEX-Elements">{elements}</div>);
 }
 
 function WorkExperience() {

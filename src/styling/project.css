@@ -56,3 +56,46 @@
     width: 8.5em;
     height: 9.5em;
 }
+
+@media (max-width: 600px) and (min-width: 330px){
+    #Project-stage{
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100vw;
+
+        /* border: 2px solid black; */
+    }
+
+    #Project{
+        width: 100vw;
+
+        min-width: 70vw;
+    }
+
+    #PRJT-Title{
+        flex-direction: column;
+        justify-content: center;
+
+        width: 80vw;
+
+        margin: 0 auto;
+    }
+
+    .project-container{
+        flex-direction: column;
+        justify-content: center;
+
+        /* height:200%; */
+        margin-bottom: 2.5em;
+        width: 100vw;
+        /* border: 2px solid blue; */
+    }
+
+    .project-container .all-images{
+        margin: 0 auto;
+        margin-bottom: 0.6em;
+        width: 85vw;
+        height: 25em;
+    }
+}

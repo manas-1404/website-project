@@ -47,3 +47,22 @@ html{
     font-family: 'Comfortaa', cursive;
     font-size: 140%;
 }
+
+@media (max-width: 600px) and (min-width: 330px){
+    #About-Me-stage{
+        flex-direction: column;
+        justify-content: center;
+        width: 98vw;
+        
+        /* border: 5px solid darkgreen; */
+    }
+
+    #About-Me{
+        width: 85vw;
+        margin: 0 auto;
+
+        min-width: 65vw;
+
+        /* border: 3px solid black; */
+    }
+}

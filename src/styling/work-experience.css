@@ -90,3 +90,84 @@
     padding-bottom: 1%;
     font-size: 104%;
 }
+
+@media (max-width: 600px) and (min-width: 330px){
+    html{
+        width: 100vw;
+        font-size: 12px;
+
+        /* border: 2px solid red; */
+    }
+    body{
+        margin: 0em;
+        width: 100vw;
+        /* border: 5px solid grey; */
+
+        /* padding: 2.3%; */
+    }
+
+    #Work-Experience-stage{
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100vw;
+
+        margin-top: 2.7em;
+        /* border: 2px solid black; */
+    }
+
+    #Work-Experience{
+        width: 100vw;
+
+        min-width: 70vw;
+        
+    }
+
+    #WEX-Title{
+        flex-direction: column;
+        justify-content: center;
+
+        width: 80vw;
+
+        margin: 0 auto;
+    }
+
+    .job-container{
+        flex-direction: column;
+        justify-content: center;
+
+        /* height:200%; */
+        margin-bottom: 2.5em;
+        width: 100vw;
+        /* border: 2px solid blue; */
+    }
+
+    .content{
+        /* height: 100%; */
+        align-content: center;
+        margin: 0 auto;
+        padding: 1em;
+        padding-bottom: 0em;
+        flex-grow: 1;
+
+        height: 300%;
+        width: 80vw;
+        /* border: 2px solid green; */
+    }
+
+    .content ul{
+        padding-left: 1em;
+    }
+
+    .content ul li{
+        padding-bottom: 0.7em;
+    }
+
+
+    .all-images{
+        margin: 0 auto;
+        margin-bottom: 0.6em;
+        width: 85vw;
+        height: 25em;
+    }
+}

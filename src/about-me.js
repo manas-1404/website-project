@@ -1,6 +1,6 @@
 import React from "react"
 
-const content = "I'm a passionate computer science student. I like to build software applications. I'm currently building a CounterSpeech Bot to help counter hate speech online. "
+const content = "Passionate computer science student. Like to build software applications. Currently building a CounterSpeech Bot to help counter hate speech online. "
 
 function AboutMe() {
     return (

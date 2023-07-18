@@ -56,3 +56,39 @@
 
     margin-bottom: 2%;
 }
+
+@media (max-width: 600px) and (min-width: 330px){
+    #Education-stage{
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100vw;
+
+        padding: 0em;
+        /* border: 5px solid black; */
+    }
+
+    #Education{
+        width: 100vw;
+    }
+
+    #EDU-Title{
+        flex-direction: column;
+        justify-content: center;
+
+        width: 80vw;
+
+        margin: 0 auto;
+    }
+
+    .education-container{
+        flex-direction: column;
+        justify-content: center;
+
+        /* height:200%; */
+        width: 100vw;
+        margin-bottom: 2.5em;
+        /* border: 2px solid blue; */
+    }
+
+}

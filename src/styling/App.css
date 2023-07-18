@@ -121,3 +121,17 @@ body{
     font-size: 1.4rem;
   }
 }
+
+
+@media (max-width: 600px) and (min-width: 330px){
+  #MyName{
+    font-size: 1.25rem;
+
+    padding: 0em;
+    margin-right: 0em;
+  }
+
+  .Nav-Bar a{
+    font-size: 0.8rem;
+  }
+}

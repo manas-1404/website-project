@@ -2,7 +2,7 @@ import React from "react";
 
 import { useState, useEffect } from "react";
 
-import Logo from "./images/favicon.jpg"
+// import Logo from "./images/favicon.jpg"
 
 import './styling/dark-mode.css';
 
@@ -90,7 +90,7 @@ function NavBar() {
         <div className="container">
             <nav className="Nav-Bar">
                 <div className="Website-Logo">
-                    <img src={Logo} alt="Manas Logo" width="10%" id="Logo" />
+                    {/* <img src={Logo} alt="Manas Logo" width="10%" id="Logo" /> */}
                     <div>
                         <p><a href="#First-Page-stage"  id="MyName">Manas Gowda</a></p>
                     </div>

@@ -26,10 +26,10 @@ const projects = [
     {
         id: "prj2",
         image: Logo,
-        link: "none",
+        link: "https://manas-1404.github.io/website-project/",
         name: "Professional Portfolio Website",
         time: "July 2023 - July 2023",
-        desc: "Developed a responsive professional portfolio website using React JS which is compatible with Laptops, Desktops, iPads and tablets",
+        desc: "Developed a responsive professional portfolio website using React JS which is compatible with Laptops, Desktops, iPads, tablets, and mobile phones",
         skills: "React JS, HTML, CSS, Git"
     },
     {
