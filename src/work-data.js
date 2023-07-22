@@ -23,7 +23,7 @@ const jobs = [
         id: "wk2", 
         image: Barrett,
         link: "https://barretthonors.asu.edu/",
-        position: "Recruiting Assistant",
+        position: "Office Assistant (On-Campus Student Job)",
         company: "Barrett, The Honors College", 
         timeline: "March 2023 - Present",
         city: "Tempe, Arizona, United States", 
@@ -33,7 +33,10 @@ const jobs = [
             {index: 3, point: "Analyzed and compared yearly reports consisting of student data and demographic information of the past 3 years to the Recruitment Office at Barrett."},
             {index: 4, point: "Tracked and updated ASU confirmation deposit status of 10000+ students using the application activity as reference in MySQL, Excel and Google Sheets."},
             {index: 5, point: "Tracked and analyzed Barrett Application Timings report of the past 5 years consisting of 25000+ records and delivered it to the Barrett Dean, Barrett Program Director of Admissions & other key stakeholders"},
-            {index: 6, point: "Provided excellent customer service to parents and students through phone calls, emails, in-person meetings"}
+            {index: 6, point: "Provided excellent customer service to parents and students through phone calls, emails, in-person meetings"},
+            {index: 7, point: "Organized, assisted 3+ Barrett tabling events during Sun Devil Days to increase presence Barrett Honors College."},
+            {index: 8, point: "Provided excellent customer service to parents and students through phone calls, emails, in-person meetings."},
+            {index: 9, point: "Served as a backup option for providing Barrett Campus Tours to Prospective students and parents."}
         ]
     },
     {

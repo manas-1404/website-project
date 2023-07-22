@@ -111,6 +111,10 @@ body{
   /* border: 5px solid blue; */
 }
 
+footer p{
+  margin: 0.4em;
+}
+
 /* ipad and tablet version */
 @media (max-width: 1020px){
   .Nav-Bar a{

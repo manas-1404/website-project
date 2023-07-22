@@ -34,6 +34,10 @@ function App() {
         <Projects />
         <ContactMe />
       </header>
+      <footer>
+        <p>&copy; 2023 Manas Srinivas Gowda. All rights reserved.</p>
+      </footer>
+
     </div>
   );
 }
