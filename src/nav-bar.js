@@ -96,11 +96,11 @@ function NavBar() {
                     </div>
                 </div>
 
-                <a href="#Work-Experience-stage">Work Experience</a>
+                <a href="#Work-Experience-stage">Experience</a>
                 <a href="#Education-stage">Education</a>
                 <a href="#Project-stage">Project</a>
                 <a href={ResumeLink} target="_blank" rel="noreferrer">Resume</a>
-                <a href="#Contact-Me">Contact Me</a>
+                <a href="#Contact-Me">Contact</a>
                 <button onClick={toggleDarkMode} id="switch-button">
                     {isDarkMode === false && <span class="material-icons">bedtime</span>}
                     {isDarkMode === true && <span class="material-icons">light_mode</span>}

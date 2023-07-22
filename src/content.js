@@ -32,6 +32,7 @@ export default function Content(props){
                 <h3><strong><a href={props.detail.link} target="_blank" rel="noreferrer">{props.detail.name}</a></strong></h3>
                 <h4>{props.detail.degree}</h4>
                 <h4>GPA: {props.detail.GPA}.0</h4>
+                <h4>{props.detail.extra}</h4>
                 <h5><em>Graduation: {props.detail.graduation}</em></h5>
                 <h5><em>{props.detail.city}</em></h5>
             </div>

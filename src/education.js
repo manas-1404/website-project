@@ -17,7 +17,8 @@ const schools = [
         name: "Arizona State University", 
         degree: "B.S(Hons.) in Computer Science", 
         GPA: 4.0, graduation: "Expected August 2026", 
-        city: "Tempe, Arizona, United States"
+        city: "Tempe, Arizona, United States",
+        extra: "Dean's List: Fall 2022, Spring 2023"
     },
     {
         id: "edu2", 
@@ -27,7 +28,8 @@ const schools = [
         degree: "Honors in Computer Science", 
         GPA: 4.0, 
         graduation: "Expected August 2026", 
-        city: "Tempe, Arizona, United States"
+        city: "Tempe, Arizona, United States",
+        extra: "Barrett Undergraduate Research Fellow"
     }
 ]
 

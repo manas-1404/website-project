@@ -57,7 +57,7 @@
     margin-bottom: 2%;
 }
 
-@media (max-width: 600px) and (min-width: 330px){
+@media (max-width: 600px) and (min-width: 319px){
     #Education-stage{
         flex-direction: column;
         justify-content: center;
@@ -70,6 +70,8 @@
 
     #Education{
         width: 100vw;
+
+        margin-top: 6%;
     }
 
     #EDU-Title{
@@ -91,4 +93,14 @@
         /* border: 2px solid blue; */
     }
 
+}
+
+@media (max-width: 840px) and (min-width: 760px){
+    #Education{
+        margin-top: 3%;
+    }
+    
+    .education-container{
+        width: 90%;
+    }
 }

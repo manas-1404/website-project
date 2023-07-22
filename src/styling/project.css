@@ -57,7 +57,7 @@
     height: 9.5em;
 }
 
-@media (max-width: 600px) and (min-width: 330px){
+@media (max-width: 600px) and (min-width: 319px){
     #Project-stage{
         flex-direction: column;
         justify-content: center;
@@ -68,6 +68,7 @@
     }
 
     #Project{
+        margin-top: 2.8%;
         width: 100vw;
 
         min-width: 70vw;
@@ -97,5 +98,16 @@
         margin-bottom: 0.6em;
         width: 85vw;
         height: 25em;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 760px){
+
+    #Project{
+        margin-top: 2.8%;
+        width: 96%;
+
+        min-width: 85%;
+        /* border: 2px solid black; */
     }
 }

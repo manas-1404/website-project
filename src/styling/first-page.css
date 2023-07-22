@@ -55,11 +55,11 @@
   font-size: 6.5rem;
 }
 
-@media (max-width: 600px) and (min-width: 330px) {
+@media (max-width: 600px) and (min-width: 319px) {
 
-  /* #First-Page-stage{
-    border: 2px solid blue;
-  } */
+  #First-Page-stage{
+    padding-top: 5em;
+  }
 
   #First-Page {
     flex-direction: column;
@@ -78,4 +78,20 @@
   #MyImage {
     width: 90vw;
   }
+}
+
+@media (max-width: 950px) and (min-width: 760px){
+    #IamManas{
+      width: 44%;
+      min-width: 25%;
+      
+    }
+
+    #IamManas h1{
+      font-size: 5.8rem;
+    }
+
+    #MyImage{
+      width: 56%;
+    }
 }

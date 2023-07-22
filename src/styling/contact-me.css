@@ -45,7 +45,7 @@
     /* border: 5px solid blue; */
 }
 
-@media (max-width: 600px) and (min-width: 330px){
+@media (max-width: 600px) and (min-width: 319px){
 
     #Contact-Me-stage{
         margin: 0.5em;
@@ -67,5 +67,15 @@
 
     #Contact-Me h3{
         font-size: 1.2em;
+    }
+}
+
+@media (max-width: 840px) and (min-width: 760px){
+    #Contact-Me{
+        margin: 0.6em;
+    }
+
+    #Contact-Me h3{
+        font-size: 1.5rem;
     }
 }

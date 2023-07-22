@@ -48,7 +48,7 @@ html{
     font-size: 140%;
 }
 
-@media (max-width: 600px) and (min-width: 330px){
+@media (max-width: 600px) and (min-width: 319px){
     #About-Me-stage{
         flex-direction: column;
         justify-content: center;
@@ -64,5 +64,14 @@ html{
         min-width: 65vw;
 
         /* border: 3px solid black; */
+    }
+}
+
+@media (max-width: 840px) and (min-width: 760px){
+    #About-Me{
+        width: 96%;
+        min-width: 85%;
+
+        /* border: 2px solid black; */
     }
 }

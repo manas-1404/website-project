@@ -91,7 +91,7 @@
     font-size: 104%;
 }
 
-@media (max-width: 600px) and (min-width: 330px){
+@media (max-width: 600px) and (min-width: 319px){
     html{
         width: 100vw;
         font-size: 12px;
@@ -120,6 +120,8 @@
         width: 100vw;
 
         min-width: 70vw;
+
+        margin-top: 3%;
         
     }
 
@@ -169,5 +171,17 @@
         margin-bottom: 0.6em;
         width: 85vw;
         height: 25em;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 760px){
+    #Work-Experience{
+        min-width: 90%;
+        width: 96%;
+        margin-top: 3%;
+    }
+
+    .job-container{
+        justify-content: center;
     }
 }

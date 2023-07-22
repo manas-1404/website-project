@@ -29,8 +29,8 @@ const projects = [
         link: "https://manas-1404.github.io/website-project/",
         name: "Professional Portfolio Website",
         time: "July 2023 - July 2023",
-        desc: "Developed a responsive professional portfolio website using React JS which is compatible with Laptops, Desktops, iPads, tablets, and mobile phones",
-        skills: "React JS, HTML, CSS, Git"
+        desc: "Developed a responsive professional portfolio website using React JS which is compatible with Laptops, Desktops, iPads, tablets, and mobile phones. Hosted the website on GitHub servers using GitHub Actions for Continuous Integration & Continuous Delivery (CI/CD) which automated the build, test, and deployment pipeline.",
+        skills: "React JS, HTML, CSS, Git, GitHub, GitHub Actions"
     },
     {
         id: "prj3",
