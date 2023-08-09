@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website-project/static/css/main.4cc950bc.css",
-    "main.js": "/website-project/static/js/main.ec3c7c48.js",
+    "main.js": "/website-project/static/js/main.4d75948c.js",
     "static/js/787.50e3dfbd.chunk.js": "/website-project/static/js/787.50e3dfbd.chunk.js",
     "static/media/manas.jpg": "/website-project/static/media/manas.6fd6d4f21a2eb355e11e.jpg",
     "static/media/safeSide.png": "/website-project/static/media/safeSide.585b29709e1a9076c0e9.png",
@@ -16,16 +16,17 @@
     "static/media/spaceHacks.png": "/website-project/static/media/spaceHacks.16046c3ed28ea4f37c87.png",
     "static/media/counterSpeech.png": "/website-project/static/media/counterSpeech.e4334d6e9279102a0394.png",
     "static/media/github.png": "/website-project/static/media/github.39fb3e06b86975f23b56.png",
+    "static/media/fullStackDev.png": "/website-project/static/media/fullStackDev.ff950610ce8a30b3f18a.png",
     "static/media/resume.png": "/website-project/static/media/resume.46a6fd7c6d99bd348538.png",
     "static/media/linkedin.png": "/website-project/static/media/linkedin.efdf528fd81f13cbd29d.png",
     "static/media/placeholder.png": "/website-project/static/media/placeholder.adf0e4b3135cce48d5e1.png",
     "index.html": "/website-project/index.html",
     "main.4cc950bc.css.map": "/website-project/static/css/main.4cc950bc.css.map",
-    "main.ec3c7c48.js.map": "/website-project/static/js/main.ec3c7c48.js.map",
+    "main.4d75948c.js.map": "/website-project/static/js/main.4d75948c.js.map",
     "787.50e3dfbd.chunk.js.map": "/website-project/static/js/787.50e3dfbd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cc950bc.css",
-    "static/js/main.ec3c7c48.js"
+    "static/js/main.4d75948c.js"
   ]
 }
