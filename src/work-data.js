@@ -21,6 +21,20 @@ const jobs = [
     },
     {
         id: "wk2", 
+        image: FSE,
+        link: "https://engineering.asu.edu/ugta/",
+        position: "Undergraduate Teaching Assistant",
+        company: "Ira A. Fulton Schools of Engineering", 
+        timeline: "August 2023 - Present",
+        city: "Tempe, Arizona, United States", 
+        role: [
+            {index: 1, point: "Facilitated a 75min CSE110 lab session on Java Principles of Programming with a class size of 75 every week."},
+            {index: 2, point: "Performed 5+ code reviews related to Object-Oriented Programming (OOPs) & Java Principles during lab sessions & office hours. Performed Exam Review sessions a week prior to Tests, Mid-Exam & Final-Exam."},
+            {index: 3, point: "Held office hours every week and answered student discussion board questions related to Basics of Java & OOPs. "}
+        ]
+    },
+    {
+        id: "wk3", 
         image: Barrett,
         link: "https://barretthonors.asu.edu/",
         position: "Office Assistant (On-Campus Student Job)",
@@ -40,7 +54,7 @@ const jobs = [
         ]
     },
     {
-        id: "wk3",
+        id: "wk4",
         image: FSE,
         link: "https://engineering.asu.edu/",
         position: "Communications Director",
@@ -54,7 +68,7 @@ const jobs = [
         ]
     },
     {
-        id: "wk4", 
+        id: "wk5", 
         image: VIPS,
         link: "http://vips.ac.in/",
         position: "Computer Science Lab Assistant", 
