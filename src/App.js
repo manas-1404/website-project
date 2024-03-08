@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './styling/App.css';
 import './styling/first-page.css'
 import './styling/about-me.css';
@@ -41,9 +41,9 @@ function App() {
               <Route path="*" element={<FirstPage />} />
             </Routes>
           </header>
-          <footer>
+          {/* <footer>
             <p>&copy; 2023 Manas Srinivas Gowda. All rights reserved.</p>
-          </footer>
+          </footer> */}
         </div>
       </BrowserRouter>
     </DarkModeProvider>

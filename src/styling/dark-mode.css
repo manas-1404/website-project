@@ -29,7 +29,15 @@ html.dark-mode {
     background-color: rgba(246,247,249,.05);
 }
 
-#switch-button.dark-mode{
+.Resume.dark-mode{
+    color: #e5e7eb;
+}
+
+.Resume:hover.dark-mode{
+    background-color: rgba(246,247,249,.05);
+}
+
+.switch-button.dark-mode{
     background-color: rgba(35, 39, 47, 0.9);
     color: #e5e7eb;
 }

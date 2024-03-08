@@ -1,7 +1,6 @@
 // NavBar.js
 import React from "react";
 
-import Logo from "./images/favicon.jpg"
 
 import { useDarkMode } from './dark-mode';
 import './styling/dark-mode.css';
@@ -13,34 +12,39 @@ function NavBar() {
     const ResumeLink = "https://drive.google.com/file/d/1lBZEPW5pCB75ekDeMvzazDI5wLTtUUiJ/view?usp=sharing";
 
     return (
-        <div className={`container ${isDarkMode ? 'dark-mode' : ''}`}>
-            <nav className={`Nav-Bar ${isDarkMode ? 'dark-mode' : ''}`}>
-                <div className="Website-Logo">
-                    <Link to="/">Manas Gowda</Link>
+        <div className={`container${isDarkMode ? ' dark-mode' : ''}`}>
+            <nav className={`Nav-Bar${isDarkMode ? ' dark-mode' : ''}`}>
+                {/* <div className="Website-Logo">
+                    <Link to="/" className={`MyName${isDarkMode ? ' dark-mode' : ''}`>Manas Gowda</Link>
                     {/* <p><a href="#First-Page-stage" id="MyName">Manas Gowda</a></p> */}
+                {/* </div> */} 
+
+                <div className="Website-Logo">
+                    {/* Use className for styling, not ID */}
+                    <Link to="/" className={`MyName${isDarkMode ? ' dark-mode' : ''}`}>Manas Gowda</Link>
                 </div>
 
-                <Link to="/experience">Experience</Link>
+                <Link to="/experience" className={`Work-Experience-stage${isDarkMode ? ' dark-mode' : ''}`}>Experience</Link>
                 {/* <a href="#Work-Experience-stage">Experience</a> */}
 
-                <Link to="/education">Education</Link>
+                <Link to="/education" className={`Education-stage${isDarkMode ? ' dark-mode' : ''}`}>Education</Link>
                 {/* <a href="#Education-stage">Education</a> */}
 
-                <Link to="/projects">Project</Link>
+                <Link to="/projects" className={`Project-stage${isDarkMode ? ' dark-mode' : ''}`}>Project</Link>
                 {/* <a href="#Project-stage">Project</a> */}
 
-                <a href={ResumeLink} target="_blank" rel="noreferrer">Resume</a>
+                <a href={ResumeLink} target="_blank" rel="noreferrer" className={`Resume${isDarkMode ? ' dark-mode' : ''}`}>Resume</a>
 
-                <Link to="/contact-me">Contact</Link>
+                <Link to="/contact-me" className={`Contact-Me${isDarkMode ? ' dark-mode' : ''}`}>Contact</Link>
                 {/* <a href="#Contact-Me">Contact</a> */}
                 
-                <button onClick={toggleDarkMode} id="switch-button">
-                    {isDarkMode ? <span className="material-icons">light_mode</span> : <span className="material-icons">bedtime</span>}
+                <button onClick={toggleDarkMode} className={`switch-button${isDarkMode ? ' dark-mode' : ''}`}>
+                    {isDarkMode ? <span className="material-icons dark-mode">light_mode</span> : <span className="material-icons">bedtime</span>}
                 </button>
             </nav>
         </div>
     );
-}
+};
 
 export default NavBar;
 
