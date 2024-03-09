@@ -3,15 +3,15 @@ html.dark-mode {
 }
 
 /* first-page dark-mode setting*/
-.First-Page.dark-mode{
+/* .First-Page.dark-mode{
     background-color: rgba(35, 39, 47, 0.9);
-}
+} */
 
-#IamManas.dark-mode{
+.IamManas.dark-mode{
     background-color: rgba(22, 24, 29, 0.9);
 }
 
-#IamManas h1.dark-mode{
+.IamManas.dark-mode h1{
     color: #e5e7eb;
 }
 
@@ -53,11 +53,11 @@ html.dark-mode {
 /* rgba(22, 24, 29, 0.9) -> use this color for the stack materials */
 
 /* about me dark-mode setting */
-#About-Me.dark-mode{
+.About-Me.dark-mode{
     background-color: rgba(22, 24, 29, 0.9);
 }
 
-#About-Me *.dark-mode{
+.About-Me.dark-mode *{
     color: #e5e7eb;
 }
 
