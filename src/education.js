@@ -3,11 +3,12 @@ import React from "react";
 //importing custom components
 import Picture from "./pictures";
 import Content from "./content"
+import { useDarkMode } from './dark-mode';
 
 //importing images 
 import Barrett from "./images/barrett.png";
 import FSE from "./images/fse.png";
-import ASU from "./images/asu.png";
+// import ASU from "./images/asu.png";
 
 const schools = [
     {
@@ -15,8 +16,8 @@ const schools = [
         image: FSE, 
         link: "https://www.asu.edu/",
         name: "Arizona State University", 
-        degree: "B.S(Hons.) in Computer Science", 
-        GPA: 4.0, graduation: "Expected August 2026", 
+        degree: "B.S. in Computer Science", 
+        GPA: 4.0, graduation: "April 2026", 
         city: "Tempe, Arizona, United States"
     },
     {
@@ -26,7 +27,7 @@ const schools = [
         name: "Barrett, The Honors College", 
         degree: "Honors in Computer Science", 
         GPA: 4.0, 
-        graduation: "Expected August 2026", 
+        graduation: "April 2026", 
         city: "Tempe, Arizona, United States"
     }
 ]
@@ -45,10 +46,12 @@ function AddEducation() {
 
 
 export default function Education() {
+    const {isDarkMode} = useDarkMode();
+
     return (
         <div id="Education-stage">
             <div id="Education">
-                <div id="EDU-Title"><h2><strong>Education</strong></h2></div>
+                <div className={`EDU-Title${isDarkMode ? ' dark-mode' : ''}`}><h2><strong>Education</strong></h2></div>
                 <AddEducation />
             </div>
         </div>
