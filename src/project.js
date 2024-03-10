@@ -1,11 +1,12 @@
 import React from "react";
 
 //importing pictures from images
-import PlaceHolder from "./images/placeholder.png";
+// import PlaceHolder from "./images/placeholder.png";
 
 //importing custom components
 import Picture from "./pictures";
 import Content from "./content"
+import { useDarkMode } from './dark-mode';
 
 //importing project data array
 import ProjectData from "./project-data";
@@ -25,10 +26,12 @@ function AddProject(){
 }
 
 function Projects(){
+    const {isDarkMode} = useDarkMode();
+
     return(
         <div id="Project-stage">
             <div id="Project">
-                <div id="PRJT-Title"><h2><strong>Projects</strong></h2></div>
+                <div className={`PRJT-Title${isDarkMode ? ' dark-mode' : ''}`}><h2><strong>Projects</strong></h2></div>
                 <AddProject />
             </div>
         </div>

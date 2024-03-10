@@ -43,7 +43,7 @@ export default function Content(props){
 
     if(props.detail.id.includes("prj")){
         return(
-            <div className="content">
+            <div className={`content${isDarkMode ? ' dark-mode' : ''}`}>
                 <h3><strong><a href={props.detail.link} target="_blank" rel="noreferrer noopener">{props.detail.name}</a></strong></h3>
                 <h5><em>{props.detail.time}</em></h5>
                 <p>{props.detail.desc}</p>

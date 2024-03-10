@@ -20,7 +20,7 @@
     /* border: 2px solid blue; */
 }
 
-#PRJT-Title{
+.PRJT-Title{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -35,17 +35,20 @@
     /* border: 2px solid green; */
 }
 
+.PRJT-Title h2{
+    background-color: #FAEFDC;
+    color: #113A6A;
+}
+
 #Project h2{
     text-align: center;
 
     padding: 1%;
     
-    background-color: #FAEFDC;
-
+    
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 
-    color: #113A6A;
     font-family: 'Montserrat', sans-serif;
     font-size: 280%;
 

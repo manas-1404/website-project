@@ -83,7 +83,7 @@ html.dark-mode {
 }
 
 /* project dark-mode setting */
-#PRJT-Title h2.dark-mode{
+.PRJT-Title.dark-mode h2{
     background-color: rgba(22, 24, 29, 0.9);
     color: #e5e7eb;
 }
