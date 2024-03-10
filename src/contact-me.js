@@ -8,12 +8,15 @@ import Resume from "./images/resume.png";
 
 //importing custom components
 import Picture from "./pictures"
+import { useDarkMode } from './dark-mode';
 
 
 function ContactMe() {
+    const { isDarkMode } = useDarkMode();
+
     return (
         <div id="Contact-Me-stage">
-            <div id="Contact-Me">
+            <div className={`Contact-Me${isDarkMode ? ' dark-mode' : ''}`}>
                 <h2>Contact Me</h2>
                 <h3>Want to know me better? Let's connect now!</h3>
 

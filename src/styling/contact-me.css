@@ -1,9 +1,6 @@
 #Contact-Me-stage{
-    background-color: #FAEFDC;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
 
-    margin-top: 7%;
+    padding-top: 7%;
     margin-right: 0.5%;
     margin-left: 0.5%;
     margin-bottom: 0.5%;
@@ -11,7 +8,13 @@
     /* border: 5px solid black; */
 }
 
-#Contact-Me h2{
+.Contact-Me {
+    background-color: #FAEFDC;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.Contact-Me h2{
     text-align: center;
 
     padding: 1%;
@@ -24,7 +27,7 @@
     margin-bottom: 0%;
 }
 
-#Contact-Me h3{
+.Contact-Me h3{
     text-align: center;
 
     padding: 1%;

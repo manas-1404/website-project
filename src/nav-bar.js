@@ -35,7 +35,7 @@ function NavBar() {
 
                 <a href={ResumeLink} target="_blank" rel="noreferrer" className={`Resume${isDarkMode ? ' dark-mode' : ''}`}>Resume</a>
 
-                <Link to="/contact-me" className={`Contact-Me${isDarkMode ? ' dark-mode' : ''}`}>Contact</Link>
+                <Link to="/contact-me" className={`Contact-Me-stage${isDarkMode ? ' dark-mode' : ''}`}>Contact</Link>
                 {/* <a href="#Contact-Me">Contact</a> */}
                 
                 <button onClick={toggleDarkMode} className={`switch-button${isDarkMode ? ' dark-mode' : ''}`}>

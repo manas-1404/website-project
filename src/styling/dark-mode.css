@@ -88,11 +88,12 @@ html.dark-mode {
     color: #e5e7eb;
 }
 
-/* contact-me dark-mode setting */
-#Contact-Me-stage.dark-mode{
+.Contact-Me.dark-mode {
     background-color: rgba(22, 24, 29, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
 }
 
-#Contact-Me *.dark-mode{
+.Contact-Me.dark-mode *{
     color: #e5e7eb;
 }
