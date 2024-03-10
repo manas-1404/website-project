@@ -62,8 +62,8 @@ html.dark-mode {
 }
 
 /* work experience dark-mode setting */
-#WEX-Title h2.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+.WEX-Title.dark-mode h2{
+    background-color: rgba(22, 24, 29, 0.9);    
     color: #e5e7eb;
 }
 
@@ -72,7 +72,7 @@ html.dark-mode {
     background-color: rgba(22, 24, 29, 0.9);
 }
 
-.content *.dark-mode{
+.content.dark-mode *{
     color: #e5e7eb;
 }
 

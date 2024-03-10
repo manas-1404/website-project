@@ -1,5 +1,7 @@
 import React from "react"
 
+import { useDarkMode } from './dark-mode';
+
 function Description(props2){
 
     const items = props2.roles.map(jobPoint =>
@@ -11,11 +13,12 @@ function Description(props2){
 }
 
 export default function Content(props){
+    const {isDarkMode} = useDarkMode();
 
     //condition for work experience, if id = wk$$
     if(props.detail.id.includes("wk")){
         return (
-            <div className="content">
+            <div className={`content${isDarkMode ? ' dark-mode' : ''}`}>
                 <h3><strong>{props.detail.position}</strong></h3>
                 <h3><a href={props.detail.link} target="_blank">{props.detail.company}</a></h3>
                 <h5><em>{props.detail.timeline}</em></h5>
