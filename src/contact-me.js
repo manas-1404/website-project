@@ -149,6 +149,7 @@ function ContactMe() {
                                         name="name"
                                         placeholder='Name'
                                         id="name_input"
+                                        className='form-input'
                                         value={formData.name}
                                         onChange={handleChange}
                                         required
@@ -159,6 +160,7 @@ function ContactMe() {
                                         type="email"
                                         name="email"
                                         placeholder='Email'
+                                        className='form-input'
                                         value={formData.email}
                                         onChange={handleChange}
                                         required

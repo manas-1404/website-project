@@ -232,11 +232,6 @@ margin: 3em;
   background-color: #0056b3;
 }
 
-/* .form-field {
-  margin: 1.5em;
-  margin-top: 0em;
-} */
-
 
 .form-field input{
   background-color: #121212;
@@ -250,6 +245,15 @@ margin: 3em;
   margin-top: 2.5em;
 }
 
+.form-input{
+  padding: 0.5em;
+  border-radius: 3px; 
+  color: whitesmoke; 
+  transition: font-size 0.3s ease; 
+
+}
+
+
 .form-field textarea{
   width: 60%;
   margin: 1.5em;
@@ -258,11 +262,12 @@ margin: 3em;
 
 .message-field {
   height: auto;
-  resize: vertical; /* Allow vertical resizing, but keep the width consistent */
+  resize: vertical; 
   width: 59%;
   /* height: 4em; */
   padding: 0.5em;
   border-radius: 5px;
+  background-color: #121212;
 }
 
 #send-button{
