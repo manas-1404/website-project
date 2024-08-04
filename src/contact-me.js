@@ -2,19 +2,7 @@ import React, { useState } from 'react';
 // import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Typewriter from 'typewriter-effect';
-
-
-//importing custom components
-// import Picture from "./pictures"
 import { useDarkMode } from './dark-mode';
-
-
-//importing pictures from images
-// import PlaceHolder from "./images/placeholder.png";
-// import LinkedIn from "./images/linkedin.png";
-// import GitHub from "./images/github.png";
-// import Resume from "./images/resume.png";
-
 
 
 
@@ -54,18 +42,6 @@ function ContactMe() {
     return (
         <div id="Contact-Me-stage">
             <div className={`Contact-Me${isDarkMode ? ' dark-mode' : ''}`}>
-                {/* <h2>Contact Me</h2>
-                <h3>Want to know me better? Let's connect now!</h3> */}
-
-                {/* make the below div as a flexbox */}
-                {/* <div id="image-container">
-
-                    <a href="https://github.com/manas-1404" target="_blank" rel="noreferrer noopener"><Picture img={GitHub} alt="GitHub" /></a>
-                    <a href="https://www.linkedin.com/in/manas-gowda/" target="_blank" rel="noreferrer noopener"><Picture img={LinkedIn} alt="LinkedIn" /></a>
-                    <a href="https://drive.google.com/file/d/1lBZEPW5pCB75ekDeMvzazDI5wLTtUUiJ/view?usp=sharing" target="_blank" rel="noreferrer noopener">
-                        <Picture img={Resume} alt="Resume" />
-                    </a>
-                </div> */}
 
                 <div className="social-card">
                     <div className="social-header">
@@ -92,13 +68,14 @@ function ContactMe() {
                                         strings: ["Let's Connect!", "Looking forward to hear from you!"],
                                         autoStart: true,
                                         loop: true,
+                                        delay: 50
                                     }}
                                 />
                             </h3>
-                            
+
                             <p>Connect at <a href='mailto:manas.gowda04@gmail.com'>manas.gowda04@gmail.com</a></p>
 
-                            
+
                             <div className="icon">
                                 {/* <!-- GitHub Button --> */}
                                 <a href="https://github.com/manas-1404" className="btn-social" target="_blank" rel="noopener noreferrer">
@@ -111,6 +88,13 @@ function ContactMe() {
                                 <a href="https://www.linkedin.com/in/manas-gowda/" className="btn-social" target="_blank" rel="noopener noreferrer">
                                     <svg width="75" height="75" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path d="M20.447,20.452h-3.554v-5.569c0-1.328-0.027-3.037-1.852-3.037-1.853,0-2.136,1.445-2.136,2.939v5.667H9.351V9h3.414v1.561h0.049c0.477-0.902,1.637-1.852,3.37-1.852,3.601,0,4.267,2.37,4.267,5.455v6.288H20.447z M5.337,7.433c-1.144,0-2.063-0.927-2.063-2.065c0-1.138,0.919-2.063,2.063-2.063s2.065,0.925,2.065,2.063 C7.402,6.506,6.481,7.433,5.337,7.433z M7.119,20.452H3.554v-11h3.565V20.452z M22.225,0H1.771C0.792,0,0,0.795,0,1.778v20.447 C0,23.207,0.792,24,1.771,24h20.454c0.978,0,1.771-0.793,1.771-1.775V1.778C24,0.795,23.203,0,22.225,0z" />
+                                    </svg>
+                                </a>
+
+                                {/* Resume Button */}
+                                <a href="https://drive.google.com/file/d/1lBZEPW5pCB75ekDeMvzazDI5wLTtUUiJ/view?usp=drive_link" className="btn-social" target="_blank" rel="noopener noreferrer">
+                                    <svg width="75" height="75" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-7V3.5L18.5 9H13z" />
                                     </svg>
                                 </a>
                             </div>
