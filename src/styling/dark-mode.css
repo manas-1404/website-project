@@ -13,6 +13,10 @@ html.dark-mode {
     color: #e5e7eb;
 }
 
+.IamManas.dark-mode p{
+    color: #e5e7eb;
+}
+
 
 /* nav bar dark-mode setting */
 .Nav-Bar.dark-mode{
@@ -40,7 +44,7 @@ html.dark-mode {
 }
 
 .switch-button.dark-mode{
-    background-color: rgba(35, 39, 47, 0.9);
+    background-color: #000000;
     color: #e5e7eb;
 }
 

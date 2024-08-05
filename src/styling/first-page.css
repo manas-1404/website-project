@@ -18,7 +18,7 @@
 }
 
 /* shadow feature - the raised stack feeling */
-.First-Page img, .First-Page div{
+.First-Page img, .IamManas{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
 
@@ -32,24 +32,47 @@
   width: 33em;
 }
 
+.typewriter-container {
+  display: flex;
+  flex-direction:row ;
+}
+
+
 .IamManas{
-  width: 28em;
+  width: 38em;
   min-width: 378px;
+  /* padding: 1em; */
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 
   background-color: #FAEFDC;
 }
 
-.IamManas h1{
+.IamManas p{
+  padding: 0.5em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+}
+
+.IamManas h1, .typewriter-container{
   margin: 0em;
   font-family: 'Rancho', cursive;
   font-style: italic;
   font-weight:bold;
-  /* color: #182153; */
   color: #113A6A;
-  font-size: 6.5rem;
+  font-size: 2.5rem;
 }
+
+.typewriter-container h1{
+  margin-right: 8px;
+}
+
+.IamManas p{
+  margin: 0em;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 1.3rem;
+  color: #113A6A;
+}
+
