@@ -7,6 +7,8 @@ import Content from "./content"
 //importing an array
 import JobData from "./work-data";
 
+import Sidebar from "./sidebar";
+
 
 
 function AddExperience() {
@@ -25,15 +27,19 @@ function AddExperience() {
 }
 
 function WorkExperience() {
-    const {isDarkMode} = useDarkMode();
-    
+    const { isDarkMode } = useDarkMode();
+
     return (
-        <div id="Work-Experience-stage">
-            <div id="Work-Experience">
-                <div className={`WEX-Title${isDarkMode ? ' dark-mode' : ''}`}><h2><strong>Work Experience</strong></h2></div>
-                <AddExperience />
+        <>
+            <Sidebar />
+            <div id="Work-Experience-stage">
+                <div id="Work-Experience">
+                    <div className={`WEX-Title${isDarkMode ? ' dark-mode' : ''}`}><h2><strong>Work Experience</strong></h2></div>
+                    <AddExperience />
+                </div>
             </div>
-        </div>
+        </>
+
     )
 }
 

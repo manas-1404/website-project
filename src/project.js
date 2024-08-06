@@ -10,31 +10,36 @@ import { useDarkMode } from './dark-mode';
 
 //importing project data array
 import ProjectData from "./project-data";
+import Sidebar from "./sidebar";
 
 
-function AddProject(){
+function AddProject() {
 
     const elements = ProjectData.map(project =>
         <div className="project-container">
             <Picture img={project.image} alt="Organization Logo" />
 
-            <Content detail={project} />  
+            <Content detail={project} />
         </div>
     );
 
     return <div>{elements}</div>
 }
 
-function Projects(){
-    const {isDarkMode} = useDarkMode();
+function Projects() {
+    const { isDarkMode } = useDarkMode();
 
-    return(
-        <div id="Project-stage">
-            <div id="Project">
-                <div className={`PRJT-Title${isDarkMode ? ' dark-mode' : ''}`}><h2><strong>Projects</strong></h2></div>
-                <AddProject />
+    return (
+        <>
+            <Sidebar />
+            <div id="Project-stage">
+                <div id="Project">
+                    <div className={`PRJT-Title${isDarkMode ? ' dark-mode' : ''}`}><h2><strong>Projects</strong></h2></div>
+                    <AddProject />
+                </div>
             </div>
-        </div>
+        </>
+
     );
 }
 

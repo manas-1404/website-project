@@ -1,6 +1,6 @@
 /* First Page Structure and Styling */
 #First-Page-stage {
-  margin-bottom: 6.8em;
+  /* margin-bottom: 6.8em; */
   padding-top: 6.5em;
 
 /* border: 2px solid black; */
@@ -63,6 +63,10 @@
   font-weight:bold;
   color: #113A6A;
   font-size: 2.5rem;
+}
+
+.IamManas h1{
+  padding-left: 0.8em;
 }
 
 .typewriter-container h1{
