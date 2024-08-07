@@ -31,7 +31,7 @@ function FirstPage() {
                         </div>
 
 
-                        <p>A passionate computer science junior @ASU with a zeal for solving complex problems and exploring new technologies. Ex-SWE intern @University of Kaiserslautern in Germany.</p>
+                        <p>A passionate computer science junior <a href="https://www.asu.edu/" target="_blank" rel="noreferrer noopener">@ASU</a> with a zeal for solving complex problems and exploring new technologies. Ex-SWE intern <a href="https://rptu.de/en/" target="_blank" rel="noreferrer noopener">@University of Kaiserslautern</a> in Germany.</p>
                         {/* <p>I'm a third-year undergraduate student pursuing Computer Science at Arizona State University. I have interned as a Software Engineer at the University of Kaiserslautern in Germany. </p> */}
                         {/* <p>I enjoy tackling complex problems and developing solutions that make a tangible impact. From coding challenges to hackathons, I am always exploring new technologies and methodologies to expand my skillset.</p> */}
                         {/* <h1><strong>Manas!</strong></h1> */}

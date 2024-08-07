@@ -58,25 +58,30 @@
 
 .IamManas h1, .typewriter-container{
   margin: 0em;
-  font-family: 'Rancho', cursive;
-  font-style: italic;
+  /* font-family: 'Rancho', cursive; */
+  font-family: 'Fira Code', monospace;
+  /* font-style: italic; */
   font-weight:bold;
   color: #113A6A;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
+  padding-bottom: 0.5em;
 }
 
 .IamManas h1{
   padding-left: 0.8em;
 }
 
+/* Space between I'm a and typewriter */
 .typewriter-container h1{
-  margin-right: 8px;
+  margin-right: 0.9rem;
 }
 
 .IamManas p{
   margin: 0em;
   /* font-family: 'Montserrat', sans-serif; */
-  font-size: 1.3rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
   color: #113A6A;
+  line-height: 2.3rem;
 }
 

@@ -12,6 +12,7 @@
     background-color: rgb(229,231,235);
     border-radius: 0 10px 10px 0;
     z-index: 1000;
+    height: 17.5em;
 }
 
 .custom-sidebar-icon{
@@ -32,12 +33,15 @@
     justify-content: center;
     width: 30px;  
     height: auto;  
-    margin-top: 3.3em;
-    font-size: 1rem;
+    margin-top: 2.3em;
+    font-size: 2rem;
     color: #113A6A;
     transform: rotate(-90deg);  
     transform-origin: center;  
     white-space: nowrap;  
+    font-family: 'Rancho', cursive;
+    font-style: italic;
+    font-weight:bold;
   }
 
 .custom-sidebar-icon svg {

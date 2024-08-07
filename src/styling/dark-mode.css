@@ -5,7 +5,7 @@ html.dark-mode {
 }
 
 .IamManas.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+    background-color: #000000;
     /* background-color: rgba(22, 24, 29, 0.9); */
 }
 
@@ -57,7 +57,8 @@ html.dark-mode {
 }
 
 .material-icons:hover.dark-mode{
-    background-color: rgba(246,247,249,.05);
+    background-color: #FF6F61;
+    /* background-color: rgba(246,247,249,.05); */
 }
 
 /* rgba(22, 24, 29, 0.9) -> use this color for the stack materials */
@@ -89,13 +90,15 @@ html.dark-mode {
 
 /* work experience dark-mode setting */
 .WEX-Title.dark-mode h2{
-    background-color: rgba(22, 24, 29, 0.9);    
+    background-color: #000000;    
+    /* background-color: rgba(22, 24, 29, 0.9);     */
     color: #e5e7eb;
 }
 
 /* content boxes dark-mode setting */
 .content.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+    background-color: #000000;
+    /* background-color: rgba(22, 24, 29, 0.9); */
 }
 
 .content.dark-mode *{
@@ -104,13 +107,15 @@ html.dark-mode {
 
 /* education dark-mode setting */
 .EDU-Title.dark-mode h2{
-    background-color: rgba(22, 24, 29, 0.9);
+    background-color: #000000;
+    /* background-color: rgba(22, 24, 29, 0.9); */
     color: #e5e7eb;
 }
 
 /* project dark-mode setting */
 .PRJT-Title.dark-mode h2{
-    background-color: rgba(22, 24, 29, 0.9);
+    background-color: #000000;
+    /* background-color: rgba(22, 24, 29, 0.9); */
     color: #e5e7eb;
 }
 

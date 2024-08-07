@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 //importing pictures from images
 import Logo from "./images/favicon.jpg"
@@ -10,21 +10,40 @@ import SCAI from "./images/scai.png";
 import SafeSide from "./images/safeSide.png";
 import RapidRecovery from "./images/rapidRecovery.png";
 import Invoice from "./images/invoice.png";
+import HeatWave from "./images/heatwave.png";
 // import PlaceHolder from "./images/placeholder.png";
 
 
 const projects = [
     {
         id: "prj1",
+        image: HeatWave, 
+        link: "https://github.com/Fido27/heat-wave",
+        name: "Heat Wave Detection ", 
+        time: "Febraury 2024 - Febraury 2024", 
+        desc: "Developed a React.js web app that integrated Google Maps Nearby Search and Open Weather Map APIs. Implemented a 75% accurate early warning system for heat stroke mitigation using Google Maps Nearby Search. Directed customers to nearby shelter locations, enhancing user safety and response efficiency.", 
+        skills: "Google Maps Nearby Search API, Open Weather Map API, React.js, JavaScript, Git"
+    }, 
+    {
+        id: "prj2",
+        image: SCAI, 
+        link: "https://github.com/manas-1404/Enigma-Machine",
+        name: "Engima Machine", 
+        time: "October 2023 - November 2023", 
+        desc: "Developed a 2-Rotor encryption & decryption utility using C & MakeFile. The application can effectively encrypt and decrypt files using a Secretative Rotor Key.", 
+        skills: "C, Object Oriented Programming, Makefile, Git"
+    },
+    {
+        id: "prj3",
         image: CounterSpeech, 
         link: "none",
         name: "Automated Counter Speech Bot", 
         time: "July 2023 - Present", 
         desc: "Developing an Automated CounterSpeech Bot using Python and OpenAI to counter hate speech online", 
         skills: "Python, Machine Learning, Natural Language Processing, Git"
-    }, 
+    },
     {
-        id: "prj2",
+        id: "prj4",
         image: Logo,
         link: "https://manas-1404.github.io/",
         name: "Professional Portfolio Website",
@@ -33,7 +52,7 @@ const projects = [
         skills: "React JS, HTML, CSS, Git"
     },
     {
-        id: "prj3",
+        id: "prj5",
         image: SCAI,
         link: "none",
         name: "Arizona State University Academic Advising Meeting Scheduler",
@@ -42,7 +61,7 @@ const projects = [
         skills: "Java, JavaFX, CSS, Git"
     },
     {
-        id: "prj4", 
+        id: "prj6", 
         image: RapidRecovery,
         link: "https://editor.p5js.org/manas__1404/full/48Gid6pnb",
         name: "Rapid Recovery", 
@@ -51,7 +70,7 @@ const projects = [
         skills: "JavaScript, p5.js, Git"
     },
     {
-        id: "prj5",
+        id: "prj7",
         image: EPICS,
         link: "https://docs.google.com/presentation/d/18wRq4xPf4TpGBZKMOFtDe0ICiHmCEeNnFWgG3yv6TU8/edit?usp=sharing",
         name: "EPICS: ASU Transcripts",
@@ -60,7 +79,7 @@ const projects = [
         skills: "Python, MySQL, Git"
     },
     {
-        id: "prj6",
+        id: "prj8",
         image: SpaceHack,
         link: "https://docs.google.com/presentation/d/1Fxq2zAdr1lIT0zt7IwclFnMhwC5lFI2o3Bnoe9F0rjI/edit#slide=id.g2266f6cbb50_2_116",
         name: "Brazilian Favelas",
@@ -69,7 +88,7 @@ const projects = [
         skills: "Google Earth Engine (GEE), Data Visualization, Git"
     }, 
     {
-        id: "prj7",
+        id: "prj9",
         image: SafeSide,
         link: "https://docs.google.com/presentation/d/12wrk_9HgFzh5JsasIxrxwsxef-z234g3PcMdoMRRaxY/edit?usp=sharing&usp=embed_facebook",
         name: "SafeSide: Your Personal Safety Companion",
@@ -78,7 +97,7 @@ const projects = [
         skills: "Flutter, Figma"
     },
     {
-        id: "prj8",
+        id: "prj10",
         image: GCSP,
         link: "https://docs.google.com/presentation/d/1cUB9TjcEwWcoW0ZWU2dOgSq2R0LUHHvniXV85BERcQY/edit#slide=id.g22cb6aa3376_2_76",
         name: "Securing the IoT: Harnessing AI and Quantum Computing for Comprehensive IoT Security", 
@@ -87,7 +106,7 @@ const projects = [
         skills: "Artificial Intelligence, Quantum Computing"
     }, 
     {
-        id: "prj9",
+        id: "prj11",
         image: Invoice,
         link: "https://github.com/manas-1404/PDF-Billing-Software",
         name: "PDF Invoice Generator",

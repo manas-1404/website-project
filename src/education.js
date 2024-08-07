@@ -19,7 +19,7 @@ const schools = [
         link: "https://www.asu.edu/",
         name: "Arizona State University",
         degree: "B.S. in Computer Science",
-        GPA: 4.0, graduation: "April 2026",
+        GPA: 4.0, graduation: "May 2026",
         city: "Tempe, Arizona, United States"
     },
     {
@@ -29,7 +29,7 @@ const schools = [
         name: "Barrett, The Honors College",
         degree: "Honors in Computer Science",
         GPA: 4.0,
-        graduation: "April 2026",
+        graduation: "May 2026",
         city: "Tempe, Arizona, United States"
     }
 ]
