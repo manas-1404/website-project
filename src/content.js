@@ -1,5 +1,7 @@
 import React from "react"
 
+import { useDarkMode } from './dark-mode';
+
 function Description(props2){
 
     const items = props2.roles.map(jobPoint =>
@@ -11,13 +13,14 @@ function Description(props2){
 }
 
 export default function Content(props){
+    const {isDarkMode} = useDarkMode();
 
     //condition for work experience, if id = wk$$
     if(props.detail.id.includes("wk")){
         return (
-            <div className="content">
+            <div className={`content${isDarkMode ? ' dark-mode' : ''}`}>
                 <h3><strong>{props.detail.position}</strong></h3>
-                <h3><a href={props.detail.link} target="_blank" rel="noreferrer">{props.detail.company}</a></h3>
+                <h3><a href={props.detail.link} target="_blank" rel="noreferrer noopener">{props.detail.company}</a></h3>
                 <h5><em>{props.detail.timeline}</em></h5>
                 <h5>{props.detail.city}</h5>
                 <Description roles={props.detail.role} />
@@ -28,8 +31,8 @@ export default function Content(props){
     //condition for education, if id= edu$$
     if(props.detail.id.includes("edu")){
         return(
-            <div className="content">
-                <h3><strong><a href={props.detail.link} target="_blank" rel="noreferrer">{props.detail.name}</a></strong></h3>
+            <div className={`content${isDarkMode ? ' dark-mode' : ''}`}>
+                <h3><strong><a href={props.detail.link} target="_blank" rel="noreferrer noopener">{props.detail.name}</a></strong></h3>
                 <h4>{props.detail.degree}</h4>
                 <h4>GPA: {props.detail.GPA}.0</h4>
                 <h4>{props.detail.extra}</h4>
@@ -41,8 +44,8 @@ export default function Content(props){
 
     if(props.detail.id.includes("prj")){
         return(
-            <div className="content">
-                <h3><strong><a href={props.detail.link} target="_blank" rel="noreferrer">{props.detail.name}</a></strong></h3>
+            <div className={`content${isDarkMode ? ' dark-mode' : ''}`}>
+                <h3><strong><a href={props.detail.link} target="_blank" rel="noreferrer noopener">{props.detail.name}</a></strong></h3>
                 <h5><em>{props.detail.time}</em></h5>
                 <p>{props.detail.desc}</p>
                 <p>Skills: <em>{props.detail.skills}</em></p>

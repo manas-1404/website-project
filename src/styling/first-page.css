@@ -1,58 +1,88 @@
 /* First Page Structure and Styling */
 #First-Page-stage {
-    margin-bottom: 6.8em;
-    padding-top: 6.5em;
+  /* margin-bottom: 6.8em; */
+  padding-top: 6.5em;
 
-  /* border: 2px solid black; */
-    
-}
+/* border: 2px solid black; */
   
-#First-Page {
+}
+
+.First-Page{
   display: flex;
-  justify-content: center;
-  align-items: stretch;
-  /*aligning along the cross axis*/
+  justify-content:center;
+  align-items: stretch;  /*aligning along the cross axis*/
 
   /* border: 2px solid blue; */
   width: 95%;
   margin: 0 auto;
 }
-  
-  /* shadow feature - the raised stack feeling */
-#First-Page img, #First-Page div {
+
+/* shadow feature - the raised stack feeling */
+.First-Page img, .IamManas{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
 
 }
-  
-#MyImage {
+
+#MyImage{
   flex: 0 0 auto; /* Set flex basis to auto to maintain the original image size */
   height: 100%; /*Make the image fill the height of its parent container */
-  object-fit: cover;/* Maintain aspect ratio and cover the entire container */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
 
   width: 33em;
 }
-  
-#IamManas {
-  width: 28em;
+
+.typewriter-container {
+  display: flex;
+  flex-direction:row ;
+}
+
+
+.IamManas{
+  width: 38em;
   min-width: 378px;
+  /* padding: 1em; */
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 
   background-color: #FAEFDC;
 }
-  
-#IamManas h1 {
+
+.IamManas p{
+  padding: 0.5em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+}
+
+.IamManas h1, .typewriter-container{
   margin: 0em;
-  font-family: 'Rancho', cursive;
-  font-style: italic;
-  font-weight: bold;
-  /* color: #182153; */
+  /* font-family: 'Rancho', cursive; */
+  font-family: 'Fira Code', monospace;
+  /* font-style: italic; */
+  font-weight:bold;
   color: #113A6A;
-  font-size: 6.5rem;
+  font-size: 1.7rem;
+  padding-bottom: 0.5em;
+}
+
+.IamManas h1{
+  padding-left: 0.8em;
+}
+
+/* Space between I'm a and typewriter */
+.typewriter-container h1{
+  margin-right: 0.9rem;
+}
+
+.IamManas p{
+  margin: 0em;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  color: #113A6A;
+  line-height: 2.3rem;
 }
 
 @media (max-width: 600px) and (min-width: 319px) {

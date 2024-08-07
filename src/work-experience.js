@@ -1,13 +1,14 @@
 import React from "react"
 
+import { useDarkMode } from './dark-mode';
 import Picture from "./pictures";
 import Content from "./content"
 
 //importing an array
 import JobData from "./work-data";
 
-//importing photos from files
-// import Logo from "./images/placeholder.png";
+import Sidebar from "./sidebar";
+
 
 
 function AddExperience() {
@@ -25,13 +26,19 @@ function AddExperience() {
 }
 
 function WorkExperience() {
+    const { isDarkMode } = useDarkMode();
+
     return (
-        <div id="Work-Experience-stage">
-            <div id="Work-Experience">
-                <div id="WEX-Title"><h2><strong>Work Experience</strong></h2></div>
-                <AddExperience />
+        <>
+            <Sidebar />
+            <div id="Work-Experience-stage">
+                <div id="Work-Experience">
+                    <div className={`WEX-Title${isDarkMode ? ' dark-mode' : ''}`}><h2><strong>Work Experience</strong></h2></div>
+                    <AddExperience />
+                </div>
             </div>
-        </div>
+        </>
+
     )
 }
 export default WorkExperience;

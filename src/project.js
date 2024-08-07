@@ -6,32 +6,40 @@ import React from "react";
 //importing custom components
 import Picture from "./pictures";
 import Content from "./content"
+import { useDarkMode } from './dark-mode';
 
 //importing project data array
 import ProjectData from "./project-data";
+import Sidebar from "./sidebar";
 
 
-function AddProject(){
+function AddProject() {
 
     const elements = ProjectData.map(project =>
         <div className="project-container" key={project.id}>
             <Picture img={project.image} alt="Organization Logo" />
 
-            <Content detail={project} />  
+            <Content detail={project} />
         </div>
     );
 
     return <div>{elements}</div>
 }
 
-function Projects(){
-    return(
-        <div id="Project-stage">
-            <div id="Project">
-                <div id="PRJT-Title"><h2><strong>Projects</strong></h2></div>
-                <AddProject />
+function Projects() {
+    const { isDarkMode } = useDarkMode();
+
+    return (
+        <>
+            <Sidebar />
+            <div id="Project-stage">
+                <div id="Project">
+                    <div className={`PRJT-Title${isDarkMode ? ' dark-mode' : ''}`}><h2><strong>Projects</strong></h2></div>
+                    <AddProject />
+                </div>
             </div>
-        </div>
+        </>
+
     );
 }
 

@@ -10,13 +10,31 @@ import SCAI from "./images/scai.png";
 import SafeSide from "./images/safeSide.png";
 import RapidRecovery from "./images/rapidRecovery.png";
 import Invoice from "./images/invoice.png";
-import FullStackDev from "./images/fullStackDev.png"
+import HeatWave from "./images/heatwave.png";
 // import PlaceHolder from "./images/placeholder.png";
 
 
 const projects = [
     {
         id: "prj1",
+        image: HeatWave, 
+        link: "https://github.com/Fido27/heat-wave",
+        name: "Heat Wave Detection ", 
+        time: "Febraury 2024 - Febraury 2024", 
+        desc: "Developed a React.js web app that integrated Google Maps Nearby Search and Open Weather Map APIs. Implemented a 75% accurate early warning system for heat stroke mitigation using Google Maps Nearby Search. Directed customers to nearby shelter locations, enhancing user safety and response efficiency.", 
+        skills: "Google Maps Nearby Search API, Open Weather Map API, React.js, JavaScript, Git"
+    }, 
+    {
+        id: "prj2",
+        image: SCAI, 
+        link: "https://github.com/manas-1404/Enigma-Machine",
+        name: "Engima Machine", 
+        time: "October 2023 - November 2023", 
+        desc: "Developed a 2-Rotor encryption & decryption utility using C & MakeFile. The application can effectively encrypt and decrypt files using a Secretative Rotor Key.", 
+        skills: "C, Object Oriented Programming, Makefile, Git"
+    },
+    {
+        id: "prj3",
         image: CounterSpeech, 
         link: "none",
         name: "Automated Counter Speech Bot", 
@@ -25,25 +43,16 @@ const projects = [
         skills: "Python, Machine Learning, Natural Language Processing, Git"
     },
     {
-        id: "prj2",
-        image: FullStackDev, 
-        link: "https://github.com/manas-1404/Blog-Post",
-        name: "Blogging Web Application", 
-        time: "August 2023 - Present", 
-        desc: "Developing a full stack Blogging Web Application using React.js for the front-end, Express.js for handling REST APIs, Node.js for back-end, Axios for client and server-side connection, stored data using MongoDB database.", 
-        skills: "React.js, Node.js, Express.js, Axios, MongoDB, Git"
-    }, 
-    {
-        id: "prj3",
+        id: "prj4",
         image: Logo,
-        link: "https://manas-1404.github.io/website-project/",
+        link: "https://manas-1404.github.io/",
         name: "Professional Portfolio Website",
         time: "July 2023 - July 2023",
         desc: "Developed professional portfolio using React JS and added Light & Dark Mode theme feature using React Hooks API. Implemented test cases in YAML files and deployed the website on GitHub server using GitHub Action CI/CD tools to automate the build, test, and deployment pipeline.",
         skills: "React JS, HTML, CSS, Git, GitHub, GitHub Actions"
     },
     {
-        id: "prj4",
+        id: "prj5",
         image: SCAI,
         link: "https://github.com/manas-1404/CSE205-Honors-Project",
         name: "Arizona State University Academic Advising Meeting Scheduler",
@@ -52,7 +61,7 @@ const projects = [
         skills: "Java, JavaFX, CSS, Git, OOPs"
     },
     {
-        id: "prj5", 
+        id: "prj6", 
         image: RapidRecovery,
         link: "https://editor.p5js.org/manas__1404/full/48Gid6pnb",
         name: "Rapid Recovery", 
@@ -61,7 +70,7 @@ const projects = [
         skills: "JavaScript, p5.js, Git"
     },
     {
-        id: "prj6",
+        id: "prj7",
         image: EPICS,
         link: "https://docs.google.com/presentation/d/18wRq4xPf4TpGBZKMOFtDe0ICiHmCEeNnFWgG3yv6TU8/edit?usp=sharing",
         name: "EPICS: ASU Transcripts",
@@ -70,7 +79,7 @@ const projects = [
         skills: "Python, MySQL, Git"
     },
     {
-        id: "prj7",
+        id: "prj8",
         image: SpaceHack,
         link: "https://docs.google.com/presentation/d/1Fxq2zAdr1lIT0zt7IwclFnMhwC5lFI2o3Bnoe9F0rjI/edit#slide=id.g2266f6cbb50_2_116",
         name: "Brazilian Favelas",
@@ -79,7 +88,7 @@ const projects = [
         skills: "Google Earth Engine (GEE), Data Visualization, Git"
     }, 
     {
-        id: "prj8",
+        id: "prj9",
         image: SafeSide,
         link: "https://docs.google.com/presentation/d/12wrk_9HgFzh5JsasIxrxwsxef-z234g3PcMdoMRRaxY/edit?usp=sharing&usp=embed_facebook",
         name: "SafeSide: Your Personal Safety Companion",
@@ -88,7 +97,7 @@ const projects = [
         skills: "Flutter, Figma"
     },
     {
-        id: "prj9",
+        id: "prj10",
         image: GCSP,
         link: "https://docs.google.com/presentation/d/1cUB9TjcEwWcoW0ZWU2dOgSq2R0LUHHvniXV85BERcQY/edit#slide=id.g22cb6aa3376_2_76",
         name: "Securing the IoT: Harnessing AI and Quantum Computing for Comprehensive IoT Security", 
@@ -97,7 +106,7 @@ const projects = [
         skills: "Artificial Intelligence, Quantum Computing"
     }, 
     {
-        id: "prj10",
+        id: "prj11",
         image: Invoice,
         link: "https://github.com/manas-1404/PDF-Billing-Software",
         name: "PDF Invoice Generator",

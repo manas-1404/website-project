@@ -1,36 +1,54 @@
 html.dark-mode {
-    background-color: rgba(35, 39, 47, 0.9);
+    background-color: #121212;
+    /* background-color: #0A0A0A; */
+    /* background-color: rgba(35, 39, 47, 0.9); */
 }
 
-/* first-page dark-mode setting*/
-.First-Page.dark-mode{
-    background-color: rgba(35, 39, 47, 0.9);
+.IamManas.dark-mode{
+    background-color: #000000;
+    /* background-color: rgba(22, 24, 29, 0.9); */
 }
 
-#IamManas.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+.IamManas.dark-mode h1{
+    color: #e5e7eb;
 }
 
-#IamManas h1.dark-mode{
+.typewriter-container.dark-mode{
+    color: #e5e7eb;
+  }
+
+.IamManas.dark-mode p, .IamManas.dark-mode a{
     color: #e5e7eb;
 }
 
 
 /* nav bar dark-mode setting */
 .Nav-Bar.dark-mode{
-    background-color: rgba(35, 39, 47, 0.9);
+    background-color: #000000;
+    /* background-color: rgba(35, 39, 47, 0.9); */
 }
 
 .Nav-Bar a.dark-mode{
-    color: #e5e7eb;
+    color: #F5F5F5;
+    /* color: #e5e7eb; */
 }
 
 .Nav-Bar a:hover.dark-mode{
+    /* background-color: #BB86FC; */
+    background-color: #FF6F61;
+    /* background-color: rgba(246,247,249,.05); */
+}
+
+.Resume.dark-mode{
+    color: #e5e7eb;
+}
+
+.Resume:hover.dark-mode{
     background-color: rgba(246,247,249,.05);
 }
 
-#switch-button.dark-mode{
-    background-color: rgba(35, 39, 47, 0.9);
+.switch-button.dark-mode{
+    background-color: #000000;
     color: #e5e7eb;
 }
 
@@ -39,52 +57,82 @@ html.dark-mode {
 }
 
 .material-icons:hover.dark-mode{
-    background-color: rgba(246,247,249,.05);
+    background-color: #FF6F61;
+    /* background-color: rgba(246,247,249,.05); */
 }
 
 /* rgba(22, 24, 29, 0.9) -> use this color for the stack materials */
 
+
+.custom-sidebar.dark-mode {
+    background-color: #121212;
+}
+
+.custom-sidebar.dark-mode p {
+    color: #e5e7eb;
+  }
+
+.custom-sidebar-icon.dark-mode svg {
+    /* width: 100%; */
+    /* height: 100%; */
+    fill: #e5e7eb;
+    /* Default fill color */
+}
+
 /* about me dark-mode setting */
-#About-Me.dark-mode{
+.About-Me.dark-mode{
     background-color: rgba(22, 24, 29, 0.9);
 }
 
-#About-Me *.dark-mode{
+.About-Me.dark-mode *{
     color: #e5e7eb;
 }
 
 /* work experience dark-mode setting */
-#WEX-Title h2.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+.WEX-Title.dark-mode h2{
+    background-color: #000000;    
+    /* background-color: rgba(22, 24, 29, 0.9);     */
     color: #e5e7eb;
 }
 
 /* content boxes dark-mode setting */
 .content.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+    background-color: #000000;
+    /* background-color: rgba(22, 24, 29, 0.9); */
 }
 
-.content *.dark-mode{
+.content.dark-mode *{
     color: #e5e7eb;
 }
 
 /* education dark-mode setting */
-#EDU-Title h2.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+.EDU-Title.dark-mode h2{
+    background-color: #000000;
+    /* background-color: rgba(22, 24, 29, 0.9); */
     color: #e5e7eb;
 }
 
 /* project dark-mode setting */
-#PRJT-Title h2.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+.PRJT-Title.dark-mode h2{
+    background-color: #000000;
+    /* background-color: rgba(22, 24, 29, 0.9); */
     color: #e5e7eb;
 }
 
-/* contact-me dark-mode setting */
-#Contact-Me-stage.dark-mode{
-    background-color: rgba(22, 24, 29, 0.9);
+.Contact-Me.dark-mode {
+    /* background-color: rgba(22, 24, 29, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); */
+    border-radius: 10px;
 }
 
-#Contact-Me *.dark-mode{
+.Contact-Me.dark-mode *{
     color: #e5e7eb;
+}
+
+.form-field.dark-mode input{
+    background-color: #121212;
+}
+
+.message-field.dark-mode {
+    background-color: #121212;
 }
