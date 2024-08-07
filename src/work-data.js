@@ -17,12 +17,12 @@ const jobs = [
         timeline: "May 2024 - August 2024",
         city: "Kaiserslautern, Germany", 
         role: [
-            "Developed & trained machine learning model using Keras & TensorFlow to accurately classify urban land use into 12 distinct classes, achieving a precision of 84.2% and enhancing urban planning software development.",
-            "Trained & deployed a machine learning model utilizing Keras & TensorFlow to achieve 78% accuracy in image segmentation of satellite images, serving as critical tool in development of urban planning software at Ziggurat.ai.",
-            "Implemented robust data collection pipelines using Numpy, Pandas, Google Maps Static API to construct training and testing datasets for land use classifiers, preprocessing over 500,000 satellite images which streamlined data handling.",
-            "Upgraded legacy Python2 codebase for custom geospatial analysis packages Pysatml and Pysatapi to Python3, resulting in 100% compatibility with the latest Python versions and resolving all operational issues.",
-            "Designed an automated pipeline for geospatial analysis shapefiles using Pandas and GeoPandas, improving data visualization efficiency by 100%, streamlining operations for the Ministry of Rhineland-Palatinate.",
-            "Documented detailed procedures for machine learning model code, methods, and datasets using Git version control, resulting in simplified software development processes and ensured 100% code reusability for future applications."
+            {index:1, point:"Developed & trained machine learning model using Keras & TensorFlow to accurately classify urban land use into 12 distinct classes, achieving a precision of 84.2% and enhancing urban planning software development."},
+            {index:2, point:"Trained & deployed a machine learning model utilizing Keras & TensorFlow to achieve 78% accuracy in image segmentation of satellite images, serving as critical tool in development of urban planning software at Ziggurat.ai."},
+            {index:3, point:"Implemented robust data collection pipelines using Numpy, Pandas, Google Maps Static API to construct training and testing datasets for land use classifiers, preprocessing over 500,000 satellite images which streamlined data handling."},
+            {index:4, point:"Upgraded legacy Python2 codebase for custom geospatial analysis packages Pysatml and Pysatapi to Python3, resulting in 100% compatibility with the latest Python versions and resolving all operational issues."},
+            {index:5, point:"Designed an automated pipeline for geospatial analysis shapefiles using Pandas and GeoPandas, improving data visualization efficiency by 100%, streamlining operations for the Ministry of Rhineland-Palatinate."},
+            {index:6, point:"Documented detailed procedures for machine learning model code, methods, and datasets using Git version control, resulting in simplified software development processes and ensured 100% code reusability for future applications."}
         ]
     },
     {
@@ -34,9 +34,9 @@ const jobs = [
         timeline: "August 2023 - December 2023",
         city: "Tempe, Arizona, United States", 
         role: [
-            "Delivered 75-minute CSE110 lab session on Java principles and Object-Oriented Programming with weekly attendance of 75 students, enhancing comprehension and upskilling the future software engineers.",
-            "Performed over 100 code reviews every week focused on Object-Oriented Programming and Java principles, providing student support and leading to a 70% improvement in students' analytical skills and computer skills.",
-            "Conducted comprehensive exam review sessions for Java and Object Oriented Programming courses, resulting in an 80% increase in student performance compared to prior exams."
+            {index:1, point:"Delivered 75-minute CSE110 lab session on Java principles and Object-Oriented Programming with weekly attendance of 75 students, enhancing comprehension and upskilling the future software engineers."},
+            {index:2, point:"Performed over 100 code reviews every week focused on Object-Oriented Programming and Java principles, providing student support and leading to a 70% improvement in students' analytical skills and computer skills."},
+            {index:3, point:"Conducted comprehensive exam review sessions for Java and Object Oriented Programming courses, resulting in an 80% increase in student performance compared to prior exams."}
         ]
     },
     {
@@ -48,9 +48,9 @@ const jobs = [
         timeline: "January 2023 - Present",
         city: "Tempe, Arizona, United States", 
         role: [
-            "Developed software solution that increases ASU transcript processing efficiency by 80%, leveraging AWS Textract and Python for optimal data extraction from diverse documents like tables & images, PDFs, XML.",
-            "Designed automation pipeline to extract transcript information from S3 Buckets to transfer to Amazon Textract.",
-            "Collaborated with cross-functional teams to integrate MongoDB database to store the extracted information, streamlining data access processes and improving overall efficiency by 40%"
+            {index:1, point:"Developed software solution that increases ASU transcript processing efficiency by 80%, leveraging AWS Textract and Python for optimal data extraction from diverse documents like tables & images, PDFs, XML."},
+            {index:2, point:"Designed automation pipeline to extract transcript information from S3 Buckets to transfer to Amazon Textract."},
+            {index:3, point:"Collaborated with cross-functional teams to integrate MongoDB database to store the extracted information, streamlining data access processes and improving overall efficiency by 40%"}
         ]
     },
     {
@@ -75,12 +75,12 @@ const jobs = [
         timeline: "March 2023 - September 2023",
         city: "Tempe, Arizona, United States", 
         role: [
-            "Increased efficiency of data entry & analysis of application activity and deposit status of 20000+ records by 75%", 
-            "Analyzed and updated application data of 7000+ students every week using MySQL, Excel, Google Sheets.",
-            "Analyzed and compared yearly reports consisting of student data and demographic information of the past 3 years to the Recruitment Office at Barrett.",
-            "Tracked and updated ASU confirmation deposit status of 10000+ students using the application activity as reference in MySQL, Excel and Google Sheets.",
-            "Tracked and analyzed Barrett Application Timings report of the past 5 years consisting of 25000+ records and delivered it to the Barrett Dean, Barrett Program Director of Admissions & other key stakeholders",
-            "Provided excellent customer service to parents and students through phone calls, emails, in-person meetings"
+            {index: 1, point: "Increased efficiency of data entry & analysis of application activity and deposit status of 20000+ records by 75%"}, 
+            {index: 2, point: "Analyzed and updated application data of 7000+ students every week using MySQL, Excel, Google Sheets."},
+            {index: 3, point: "Analyzed and compared yearly reports consisting of student data and demographic information of the past 3 years to the Recruitment Office at Barrett."},
+            {index: 4, point: "Tracked and updated ASU confirmation deposit status of 10000+ students using the application activity as reference in MySQL, Excel and Google Sheets."},
+            {index: 5, point: "Tracked and analyzed Barrett Application Timings report of the past 5 years consisting of 25000+ records and delivered it to the Barrett Dean, Barrett Program Director of Admissions & other key stakeholders"},
+            {index: 6, point: "Provided excellent customer service to parents and students through phone calls, emails, in-person meetings"}
         ]
     },
     {
