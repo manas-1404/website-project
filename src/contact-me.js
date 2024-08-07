@@ -43,7 +43,7 @@ function ContactMe() {
         <div id="Contact-Me-stage">
             <div className={`Contact-Me${isDarkMode ? ' dark-mode' : ''}`}>
 
-                <div className="social-card">
+                <div id="social-card1" className="social-card">
                     <div className="social-header">
                         <div className="social-top">
                             <div className="social-circle">
@@ -56,7 +56,7 @@ function ContactMe() {
                                 <span className="social-green social-circle2"></span>
                             </div>
 
-                            <p id="Contact-Me-title">connect_with_me</p>
+                            <p id="Contact-Me-title">Connect with me</p>
 
                         </div>
                     </div>
@@ -68,7 +68,7 @@ function ContactMe() {
                                         strings: ["Let's Connect!", "Looking forward to hear from you!"],
                                         autoStart: true,
                                         loop: true,
-                                        delay: 50
+                                        delay: 20
                                     }}
                                 />
                             </h3>
@@ -104,7 +104,7 @@ function ContactMe() {
                     </div>
                 </div>
 
-                <div className="social-card">
+                <div id="social-card2" className="social-card">
                     <div className="social-header">
                         <div className="social-top">
                             <div className="social-circle">
@@ -127,24 +127,24 @@ function ContactMe() {
                             {/* Email form */}
 
                             <form className="form-container" onSubmit={handleSubmit}>
-                                <div className='form-field'>
+                                <div className={`form-field${isDarkMode ? ' dark-mode' : ''}`}>
                                     <input
                                         type="text"
                                         name="name"
                                         placeholder='Name'
                                         id="name_input"
-                                        className='form-input'
+                                        className={`form-input${isDarkMode ? ' dark-mode' : ''}`}
                                         value={formData.name}
                                         onChange={handleChange}
                                         required
                                     />
                                 </div>
-                                <div className='form-field'>
+                                <div className={`form-field${isDarkMode ? ' dark-mode' : ''}`}>
                                     <input
                                         type="email"
                                         name="email"
                                         placeholder='Email'
-                                        className='form-input'
+                                        className={`form-input${isDarkMode ? ' dark-mode' : ''}`}
                                         value={formData.email}
                                         onChange={handleChange}
                                         required
@@ -154,7 +154,7 @@ function ContactMe() {
                                     <textarea
                                         name="message"
                                         placeholder='Message'
-                                        className='message-field'
+                                        className={`message-field${isDarkMode ? ' dark-mode' : ''}`}
                                         rows={10}
                                         value={formData.message}
                                         onChange={handleChange}
