@@ -27,17 +27,17 @@ import "./images/placeholder.png";
 function App() {
   return (
     <DarkModeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename='/website-project'>
         <div className="App">
           <NavBar />
           <header className="App-header">
             <Routes>
-              <Route path="/website-project/" element={<FirstPage />} />
-              <Route path="/website-project/about-me" element={<AboutMe />} />
-              <Route path="/website-project/experience" element={<WorkExperience />} />
-              <Route path="/website-project/education" element={<Education />} />
-              <Route path="/website-project/projects" element={<Projects />} />
-              <Route path="/website-project/contact-me" element={<ContactMe />} />
+              <Route path="/" element={<FirstPage />} />
+              <Route path="/about-me" element={<AboutMe />} />
+              <Route path="/experience" element={<WorkExperience />} />
+              <Route path="/education" element={<Education />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact-me" element={<ContactMe />} />
               <Route path="*" element={<FirstPage />} />
             </Routes>
           </header>

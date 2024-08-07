@@ -17,21 +17,21 @@ function NavBar() {
 
                 <div className="Website-Logo">
                     {/* Use className for styling, not ID */}
-                    <Link to="/website-project" className={`MyName${isDarkMode ? ' dark-mode' : ''}`}>Manas Gowda</Link>
+                    <Link to="/" className={`MyName${isDarkMode ? ' dark-mode' : ''}`}>Manas Gowda</Link>
                 </div>
 
-                <Link to="/website-project/experience" className={`Work-Experience-stage${isDarkMode ? ' dark-mode' : ''}`}>Experience</Link>
+                <Link to="/experience" className={`Work-Experience-stage${isDarkMode ? ' dark-mode' : ''}`}>Experience</Link>
                 {/* <a href="#Work-Experience-stage">Experience</a> */}
 
-                <Link to="/website-project/education" className={`Education-stage${isDarkMode ? ' dark-mode' : ''}`}>Education</Link>
+                <Link to="/education" className={`Education-stage${isDarkMode ? ' dark-mode' : ''}`}>Education</Link>
                 {/* <a href="#Education-stage">Education</a> */}
 
-                <Link to="/website-project/projects" className={`Project-stage${isDarkMode ? ' dark-mode' : ''}`}>Project</Link>
+                <Link to="/projects" className={`Project-stage${isDarkMode ? ' dark-mode' : ''}`}>Project</Link>
                 {/* <a href="#Project-stage">Project</a> */}
 
                 <a href={ResumeLink} target="_blank" rel="noreferrer" className={`Resume${isDarkMode ? ' dark-mode' : ''}`}>Resume</a>
 
-                <Link to="/website-project/contact-me" className={`Contact-Me-stage${isDarkMode ? ' dark-mode' : ''}`}>Contact</Link>
+                <Link to="/contact-me" className={`Contact-Me-stage${isDarkMode ? ' dark-mode' : ''}`}>Contact</Link>
                 {/* <a href="#Contact-Me">Contact</a> */}
                 
                 <button onClick={toggleDarkMode} className={`switch-button${isDarkMode ? ' dark-mode' : ''}`}>
